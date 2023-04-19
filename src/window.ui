@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <requires lib="Adw" version="1.0"/>
+  <template class="IplookupWindow" parent="AdwApplicationWindow">
+    <property name="default-width">500</property>
+    <property name="default-height">715</property>
+    <property name="title">IP Lookup</property>
+    <child>
+      <object class="GtkBox">
+        <property name="orientation">vertical</property>
+        <child>
+          <object class="GtkHeaderBar" id="header_bar">
+            <property name="css-classes">flat</property>
+            <child type="end">
+              <object class="GtkMenuButton">
+                <property name="icon-name">open-menu-symbolic</property>
+                <property name="menu-model">primary_menu</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="GtkOverlay">
+            <child>
+              <object class="GtkScrolledWindow">
+                <property name="vexpand">True</property>
+                <child>
+                  <object class="GtkViewport">
+                    <child>
+                      <object class="AdwClamp">
+                        <property name="maximum-size">530</property>
+                        <child>
+                          <object class="GtkBox">
+                            <property name="orientation">vertical</property>
+                            <property name="spacing">10</property>
+                            <child>
+                              <object class="AdwPreferencesGroup">
+                                <property name="margin-top">10</property>
+                                <child>
+                                  <!-- TODO: Move this to headerbar as GtkEntry? -->
+                                  <object class="AdwEntryRow" id="ip_entry">
+                                    <property name="title">IP</property>
+                                    <!-- Is possible to change apply-button icon? -->
+                                    <property name="show-apply-button">True</property>
+                                    <!--child>
+                                      <object class="GtkButton" id="search_btn">
+                                        <property name="label">Search</property>
+                                        <property name="icon-name">search-symbolic</property>
+                                        <property name="css-classes">flat</property>
+                                        <property name="margin-top">10</property>
+                                        <property name="margin-bottom">10</property>
+                                      </object>
+                                    </child-->
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="AdwPreferencesGroup">
+                                <property name="title">Network</property>
+                                <child>
+                                  <object class="AdwActionRow">
+                                    <property name="title">Network</property>
+                                    <property name="icon-name">lan-symbolic</property>
+                                    <child>
+                                      <object class="GtkLabel" id="network_label">
+                                        <property name="label"></property>
+                                        <property name="selectable">True</property>
+                                      </object>
+                                    </child>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="AdwActionRow">
+                                    <property name="title">ISP</property>
+                                    <property name="icon-name">globe-symbolic</property>
+                                    <child>
+                                      <object class="GtkLabel" id="isp_label">
+                                        <property name="label"></property>
+                                        <property name="selectable">True</property>
+                                      </object>
+                                    </child>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="AdwActionRow">
+                                    <property name="title">Org</property>
+                                    <property name="icon-name">building-symbolic</property>
+                                    <child>
+                                      <object class="GtkLabel" id="org_label">
+                                        <property name="label"></property>
+                                        <property name="selectable">True</property>
+                                      </object>
+                                    </child>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="AdwPreferencesGroup">
+                                <property name="title">Geo</property>
+                                <property name="margin-bottom">10</property>
+                                <child>
+                                  <object class="AdwActionRow">
+                                    <property name="title">City</property>
+                                    <property name="icon-name">city-symbolic</property>
+                                    <child>
+                                      <object class="GtkLabel" id="city_label">
+                                        <property name="label"></property>
+                                        <property name="selectable">True</property>
+                                      </object>
+                                    </child>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="AdwActionRow">
+                                    <property name="title">Region</property>
+                                    <property name="icon-name">flag-outline-thick-symbolic</property>
+                                    <child>
+                                      <object class="GtkLabel" id="region_label">
+                                        <property name="label"></property>
+                                        <property name="selectable">True</property>
+                                      </object>
+                                    </child>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="AdwActionRow">
+                                    <property name="title">Country</property>
+                                    <property name="icon-name">flag-filled-symbolic</property>
+                                    <child>
+                                      <object class="GtkLabel" id="country_label">
+                                        <property name="label"></property>
+                                        <property name="selectable">True</property>
+                                      </object>
+                                    </child>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="AdwActionRow">
+                                    <property name="title">Zip</property>
+                                    <property name="icon-name">mail-symbolic</property>
+                                    <child>
+                                      <object class="GtkLabel" id="zip_label">
+                                        <property name="label"></property>
+                                        <property name="selectable">True</property>
+                                      </object>
+                                    </child>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="AdwActionRow">
+                                    <property name="title">Timezone</property>
+                                    <property name="icon-name">clock-alt-symbolic</property>
+                                    <child>
+                                      <object class="GtkLabel" id="timezone_label">
+                                        <property name="label"></property>
+                                        <property name="selectable">True</property>
+                                      </object>
+                                    </child>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="AdwActionRow">
+                                    <property name="title">Coordinates</property>
+                                    <property name="icon-name">map-marker-symbolic</property>
+                                    <child>
+                                      <object class="GtkLinkButton" id="coordinates_label">
+                                        <property name="label"></property>
+                                        <property name="uri"></property>
+                                        <property name="tooltip-text">Open map</property>
+                                        <property name="visible">False</property>
+                                      </object>
+                                    </child>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+  <menu id="primary_menu">
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">_Keyboard Shortcuts</attribute>
+        <attribute name="action">win.show-help-overlay</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">_About IP Lookup</attribute>
+        <attribute name="action">app.about</attribute>
+      </item>
+    </section>
+  </menu>
+  <object class="AdwMessageDialog" id="error_dialog">
+    <property name="heading">Error</property>
+    <property name="body">Error message.</property>
+    <property name="default-response">close</property>
+    <property name="close-response">close</property>
+    <responses>
+      <response id="close" translatable="yes">_Close</response>
+    </responses>
+  </object>
+</interface>

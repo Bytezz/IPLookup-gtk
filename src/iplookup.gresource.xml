@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/com/github/bytezz/IPLookup">
+    <file preprocess="xml-stripblanks">window.ui</file>
+    <file preprocess="xml-stripblanks">gtk/help-overlay.ui</file>
+  </gresource>
+  <gresource prefix="/com/github/bytezz/IPLookup/icons/scalable/actions/">
+    <file preprocess="xml-stripblanks" alias="search-symbolic.svg">../data/icons/hicolor/scalable/actions/search-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="lan-symbolic.svg">../data/icons/hicolor/scalable/actions/lan-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="city-symbolic.svg">../data/icons/hicolor/scalable/actions/city-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="flag-filled-symbolic.svg">../data/icons/hicolor/scalable/actions/flag-filled-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="flag-outline-thick-symbolic.svg">../data/icons/hicolor/scalable/actions/flag-outline-thick-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="globe-symbolic.svg">../data/icons/hicolor/scalable/actions/globe-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="map-marker-symbolic.svg">../data/icons/hicolor/scalable/actions/map-marker-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="building-symbolic.svg">../data/icons/hicolor/scalable/actions/building-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="clock-alt-symbolic.svg">../data/icons/hicolor/scalable/actions/clock-alt-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="mail-symbolic.svg">../data/icons/hicolor/scalable/actions/mail-symbolic.svg</file>
+  </gresource>
+</gresources>
