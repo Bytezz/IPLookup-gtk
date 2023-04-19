@@ -1,3 +1,7 @@
-# iplookup
+# IP Lookup
 
-A description of this project.
+Find info about an IP address.
+
+# Screenshots
+
+![Main Window](screenshot/window.png)
