@@ -10,6 +10,7 @@
 		<p>Find info about an IP address.</p>
 	</description>
 	<content_rating type="oars-1.1"/>
+	<launchable type="desktop-id">com.github.bytezz.IPLookup.desktop</launchable>
 
 	<screenshots>
 		<screenshot width="622" height="837">
@@ -48,8 +49,8 @@
 	</custom>
 
 	<releases>
-		<release>
-			<description version="0.1.0" date="2023-05-11" type="stable">
+		<release version="0.1.0" date="2023-05-11" type="stable">
+			<description>
 				<p>First version. Just working, nothing fancy.</p>
 			</description>
 		</release>
