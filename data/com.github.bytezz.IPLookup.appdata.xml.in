@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop">
-	<id>com.github.bytezz.IPLookup.desktop</id>
+	<id>com.github.bytezz.IPLookup</id>
 	<name>IP Lookup</name>
 	<summary>Find info about an IP address.</summary>
+	<icon type="remote" width="16" height="16" scale="1">https://raw.githubusercontent.com/Bytezz/IPLookup-gtk/master/data/icons/hicolor/scalable/apps/com.github.bytezz.IPLookup.svg</icon>
 	<metadata_license>CC0-1.0</metadata_license>
 	<project_license>GPL-3.0-or-later</project_license>
 	<description>
-	  <p>Find info about an IP address.</p>
+		<p>Find info about an IP address.</p>
 	</description>
+	<content_rating type="oars-1.1"/>
+
+	<screenshots>
+		<screenshot width="622" height="837">
+			<caption>Main Window</caption>
+			<image type="source">https://raw.githubusercontent.com/Bytezz/IPLookup-gtk/master/screenshot/window.png</image>
+		</screenshot>
+	</screenshots>
 
 	<categories>
 		<category>Utility</category>
@@ -19,8 +28,30 @@
 		<control>touch</control>
 	</recommends>
 
+	<requires>
+		<internet>always</internet>
+	</requires>
+
+	<keywords>
+		<keyword>IP</keyword>
+		<keyword>lookup</keyword>
+		<keyword>ISP</keyword>
+		<keyword>traceroute</keyword>
+	</keywords>
+
+	<url type="homepage">https://github.com/bytezz/iplookup-gtk</url>
+	<url type="bugtracker">https://github.com/Bytezz/IPLookup-gtk/issues</url>
+
 	<custom>
 		<value key="Purism::form_factor">workstation</value>
 		<value key="Purism::form_factor">mobile</value>
 	</custom>
+
+	<releases>
+		<release>
+			<description version="0.1.0" date="2023-05-11" type="stable">
+				<p>First version. Just working, nothing fancy.</p>
+			</description>
+		</release>
+	</releases>
 </component>
