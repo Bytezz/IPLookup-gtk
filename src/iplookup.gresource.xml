@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
-  <gresource prefix="/com/github/bytezz/IPLookup">
+  <gresource prefix="/io/github/bytezz/IPLookup">
     <file preprocess="xml-stripblanks">window.ui</file>
     <file preprocess="xml-stripblanks">gtk/help-overlay.ui</file>
   </gresource>
-  <gresource prefix="/com/github/bytezz/IPLookup/icons/scalable/actions/">
+  <gresource prefix="/io/github/bytezz/IPLookup/icons/scalable/actions/">
     <file preprocess="xml-stripblanks" alias="search-symbolic.svg">../data/icons/hicolor/scalable/actions/search-symbolic.svg</file>
     <file preprocess="xml-stripblanks" alias="lan-symbolic.svg">../data/icons/hicolor/scalable/actions/lan-symbolic.svg</file>
     <file preprocess="xml-stripblanks" alias="city-symbolic.svg">../data/icons/hicolor/scalable/actions/city-symbolic.svg</file>

@@ -33,6 +33,6 @@ jobs:
       - uses: flatpak/flatpak-github-actions/flatpak-builder@v5
         with:
           bundle: iplookup.flatpak
-          manifest-path: com.github.bytezz.IPLookup.json
+          manifest-path: io.github.bytezz.IPLookup.json
           arch: ${{ matrix.arch }}
           cache-key: flatpak-builder-${{ github.sha }}
