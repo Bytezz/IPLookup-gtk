@@ -1,6 +1,6 @@
 desktop_file = i18n.merge_file(
-        input: 'com.github.bytezz.IPLookup.desktop.in',
-       output: 'com.github.bytezz.IPLookup.desktop',
+        input: 'io.github.bytezz.IPLookup.desktop.in',
+       output: 'io.github.bytezz.IPLookup.desktop',
          type: 'desktop',
        po_dir: '../po',
       install: true,
@@ -13,8 +13,8 @@ if desktop_utils.found()
 endif
 
 appstream_file = i18n.merge_file(
-        input: 'com.github.bytezz.IPLookup.appdata.xml.in',
-       output: 'com.github.bytezz.IPLookup.appdata.xml',
+        input: 'io.github.bytezz.IPLookup.appdata.xml.in',
+       output: 'io.github.bytezz.IPLookup.appdata.xml',
        po_dir: '../po',
       install: true,
   install_dir: join_paths(get_option('datadir'), 'appdata')
@@ -25,7 +25,7 @@ if appstream_util.found()
   test('Validate appstream file', appstream_util, args: ['validate', appstream_file])
 endif
 
-install_data('com.github.bytezz.IPLookup.gschema.xml',
+install_data('io.github.bytezz.IPLookup.gschema.xml',
   install_dir: join_paths(get_option('datadir'), 'glib-2.0/schemas')
 )
 

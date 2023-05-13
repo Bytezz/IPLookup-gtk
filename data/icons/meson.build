@@ -1,4 +1,4 @@
-application_id = 'com.github.bytezz.IPLookup'
+application_id = 'io.github.bytezz.IPLookup'
 
 scalable_dir = join_paths('hicolor', 'scalable', 'apps')
 install_data(

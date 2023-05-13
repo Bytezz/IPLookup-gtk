@@ -1,6 +1,6 @@
-data/com.github.bytezz.IPLookup.desktop.in
-data/com.github.bytezz.IPLookup.appdata.xml.in
-data/com.github.bytezz.IPLookup.gschema.xml
+data/io.github.bytezz.IPLookup.desktop.in
+data/io.github.bytezz.IPLookup.appdata.xml.in
+data/io.github.bytezz.IPLookup.gschema.xml
 src/main.py
 src/window.py
 src/window.ui

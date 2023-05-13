@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist gettext-domain="iplookup">
-	<schema id="com.github.bytezz.IPLookup" path="/com/github/bytezz/IPLookup/">
+	<schema id="io.github.bytezz.IPLookup" path="/io/github/bytezz/IPLookup/">
 	</schema>
 </schemalist>

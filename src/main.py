@@ -32,7 +32,7 @@ class IplookupApplication(Adw.Application):
     """The main application singleton class."""
 
     def __init__(self):
-        super().__init__(application_id='com.github.bytezz.IPLookup',
+        super().__init__(application_id='io.github.bytezz.IPLookup',
                          flags=Gio.ApplicationFlags.FLAGS_NONE)
         self.create_action('quit', self.on_quit_action, ['<primary>q'])
         self.create_action('about', self.on_about_action)
@@ -58,7 +58,7 @@ class IplookupApplication(Adw.Application):
         """Callback for the app.about action."""
         about = Adw.AboutWindow(transient_for=self.props.active_window,
                                 application_name='IP Lookup',
-                                application_icon='com.github.bytezz.IPLookup',
+                                application_icon='io.github.bytezz.IPLookup',
                                 developer_name='Bytez',
                                 version='0.1.1',
                                 developers=['Bytez'],

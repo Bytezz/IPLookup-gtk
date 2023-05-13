@@ -20,7 +20,7 @@
 from gi.repository import Adw
 from gi.repository import Gtk
 
-@Gtk.Template(resource_path='/com/github/bytezz/IPLookup/window.ui')
+@Gtk.Template(resource_path='/io/github/bytezz/IPLookup/window.ui')
 class IplookupWindow(Adw.ApplicationWindow):
     __gtype_name__ = 'IplookupWindow'
 
