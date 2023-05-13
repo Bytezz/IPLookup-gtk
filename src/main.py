@@ -60,7 +60,7 @@ class IplookupApplication(Adw.Application):
                                 application_name='IP Lookup',
                                 application_icon='com.github.bytezz.IPLookup',
                                 developer_name='Bytez',
-                                version='0.1.0',
+                                version='0.1.1',
                                 developers=['Bytez'],
                                 copyright='© 2023 Bytez')
         about.present()

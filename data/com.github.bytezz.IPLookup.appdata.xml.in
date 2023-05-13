@@ -49,6 +49,12 @@
 	</custom>
 
 	<releases>
+	  <release version="0.1.1" date="2023-05-13" type="stable">
+	    <description>
+	      <p>Switch to org.gnome.Platform 44.</p>
+	      <p>Add Desktop Entry category.</p>
+	    </description>
+	  </release>
 		<release version="0.1.0" date="2023-05-11" type="stable">
 			<description>
 				<p>First version. Just working, nothing fancy.</p>
