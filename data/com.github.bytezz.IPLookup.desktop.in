@@ -4,6 +4,6 @@ Exec=iplookup
 Icon=com.github.bytezz.IPLookup
 Terminal=false
 Type=Application
-Categories=GTK;
+Categories=Utility;GTK;
 StartupNotify=true
 X-Purism-FormFactor=Workstation;Mobile;
