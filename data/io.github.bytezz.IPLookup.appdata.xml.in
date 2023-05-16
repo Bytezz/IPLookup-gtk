@@ -49,6 +49,12 @@
 	</custom>
 
 	<releases>
+	  <release version="0.1.3" date="2023-05-16" type="stable">
+        <description>
+          <p>Add translation support.</p>
+          <p>Add Turkish translation.</p>
+        </description>
+	  </release>
 	  <release version="0.1.2" date="2023-05-13" type="stable">
         <description>
           <p>Move from com.github to io.github</p>
