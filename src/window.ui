@@ -5,7 +5,7 @@
   <template class="IplookupWindow" parent="AdwApplicationWindow">
     <property name="default-width">500</property>
     <property name="default-height">715</property>
-    <property name="title">IP Lookup</property>
+    <property name="title" translatable="true">IP Lookup</property>
     <child>
       <object class="GtkBox">
         <property name="orientation">vertical</property>
@@ -40,7 +40,7 @@
                                 <child>
                                   <!-- TODO: Move this to headerbar as GtkEntry? -->
                                   <object class="AdwEntryRow" id="ip_entry">
-                                    <property name="title">IP</property>
+                                    <property name="title" translatable="true">IP</property>
                                     <!-- Is possible to change apply-button icon? -->
                                     <property name="show-apply-button">True</property>
                                     <!--child>
@@ -58,10 +58,10 @@
                             </child>
                             <child>
                               <object class="AdwPreferencesGroup">
-                                <property name="title">Network</property>
+                                <property name="title" translatable="true">Network</property>
                                 <child>
                                   <object class="AdwActionRow">
-                                    <property name="title">Network</property>
+                                    <property name="title" translatable="true">Network</property>
                                     <property name="icon-name">lan-symbolic</property>
                                     <child>
                                       <object class="GtkLabel" id="network_label">
@@ -73,7 +73,7 @@
                                 </child>
                                 <child>
                                   <object class="AdwActionRow">
-                                    <property name="title">ISP</property>
+                                    <property name="title" translatable="true">ISP</property>
                                     <property name="icon-name">globe-symbolic</property>
                                     <child>
                                       <object class="GtkLabel" id="isp_label">
@@ -85,7 +85,7 @@
                                 </child>
                                 <child>
                                   <object class="AdwActionRow">
-                                    <property name="title">Org</property>
+                                    <property name="title" translatable="true">Org</property>
                                     <property name="icon-name">building-symbolic</property>
                                     <child>
                                       <object class="GtkLabel" id="org_label">
@@ -99,11 +99,11 @@
                             </child>
                             <child>
                               <object class="AdwPreferencesGroup">
-                                <property name="title">Geo</property>
+                                <property name="title" translatable="true">Geo</property>
                                 <property name="margin-bottom">10</property>
                                 <child>
                                   <object class="AdwActionRow">
-                                    <property name="title">City</property>
+                                    <property name="title" translatable="true">City</property>
                                     <property name="icon-name">city-symbolic</property>
                                     <child>
                                       <object class="GtkLabel" id="city_label">
@@ -115,7 +115,7 @@
                                 </child>
                                 <child>
                                   <object class="AdwActionRow">
-                                    <property name="title">Region</property>
+                                    <property name="title" translatable="true">Region</property>
                                     <property name="icon-name">flag-outline-thick-symbolic</property>
                                     <child>
                                       <object class="GtkLabel" id="region_label">
@@ -127,7 +127,7 @@
                                 </child>
                                 <child>
                                   <object class="AdwActionRow">
-                                    <property name="title">Country</property>
+                                    <property name="title" translatable="true">Country</property>
                                     <property name="icon-name">flag-filled-symbolic</property>
                                     <child>
                                       <object class="GtkLabel" id="country_label">
@@ -139,7 +139,7 @@
                                 </child>
                                 <child>
                                   <object class="AdwActionRow">
-                                    <property name="title">Zip</property>
+                                    <property name="title" translatable="true">Zip</property>
                                     <property name="icon-name">mail-symbolic</property>
                                     <child>
                                       <object class="GtkLabel" id="zip_label">
@@ -151,7 +151,7 @@
                                 </child>
                                 <child>
                                   <object class="AdwActionRow">
-                                    <property name="title">Timezone</property>
+                                    <property name="title" translatable="true">Timezone</property>
                                     <property name="icon-name">clock-alt-symbolic</property>
                                     <child>
                                       <object class="GtkLabel" id="timezone_label">
@@ -163,13 +163,13 @@
                                 </child>
                                 <child>
                                   <object class="AdwActionRow">
-                                    <property name="title">Coordinates</property>
+                                    <property name="title" translatable="true">Coordinates</property>
                                     <property name="icon-name">map-marker-symbolic</property>
                                     <child>
                                       <object class="GtkLinkButton" id="coordinates_label">
                                         <property name="label"></property>
                                         <property name="uri"></property>
-                                        <property name="tooltip-text">Open map</property>
+                                        <property name="tooltip-text" translatable="true">Open map</property>
                                         <property name="visible">False</property>
                                       </object>
                                     </child>
