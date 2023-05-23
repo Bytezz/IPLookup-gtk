@@ -1,0 +1,130 @@
+# Turkish translation of io.github.bytezz.IPLookup.
+# Copyright (C) 2023 io.github.bytezz.IPLookup COPYRIGHT HOLDER
+# This file is distributed under the same license as the io.github.bytezz.IPLookup package.
+#
+# Sabri Ünal <libreajans@gmail.com>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: io.github.bytezz.IPLookup\n"
+"Report-Msgid-Bugs-To: https://github.com/Bytezz/IPLookup-gtk/issues\n"
+"POT-Creation-Date: 2023-05-15 18:13+0300\n"
+"PO-Revision-Date: 2023-05-15 18:14+0300\n"
+"Last-Translator: Krafting <git@krafting.net>\n"
+"Language-Team: French <french@gnome.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#: data/io.github.bytezz.IPLookup.desktop.in:3
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:4
+msgid "IP Lookup"
+msgstr "Recherche d'adresse IP"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:5
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:10
+msgid "Find info about an IP address."
+msgstr "Trouver des informations à propos d'une adresse IP."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:17
+msgid "Main Window"
+msgstr "Fenêtre Principale"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:37
+msgid "IP"
+msgstr "IP"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:38
+msgid "lookup"
+msgstr "recherche"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:39
+msgid "ISP"
+msgstr "FAI"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:40
+msgid "traceroute"
+msgstr "traceroute"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:54
+msgid "Move from com.github to io.github"
+msgstr "Déplacer de com.github vers io.github"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:59
+msgid "Switch to org.gnome.Platform 44."
+msgstr "Passer à org.gnome.Platform 44."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:60
+msgid "Add Desktop Entry category."
+msgstr "Ajouter une catégorie d'entrée de bureau."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:65
+msgid "First version. Just working, nothing fancy."
+msgstr "Première version. Fonctionnelle, rien d'extraordinaire."
+
+#: src/window.ui:196
+msgid "_Keyboard Shortcuts"
+msgstr "Raccourcis Clavier"
+
+#: src/window.ui:200
+msgid "_About IP Lookup"
+msgstr "À propos"
+
+#: src/window.ui:61
+#: src/window.ui:64
+msgid "Network"
+msgstr "Réseau"
+
+#: src/window.ui:88
+msgid "Org"
+msgstr "Organisation"
+
+#: src/window.ui:102
+msgid "Geo"
+msgstr "Géolocalisation"
+
+#: src/window.ui:106
+msgid "City"
+msgstr "Ville"
+
+#: src/window.ui:116
+msgid "Region"
+msgstr "Région"
+
+#: src/window.ui:130
+msgid "Country"
+msgstr "Pays"
+
+#: src/window.ui:142
+msgid "Zip"
+msgstr "Code Postal"
+
+#: src/window.ui:154
+msgid "Timezone"
+msgstr "Fuseau horaire"
+
+#: src/window.ui:166
+msgid "Coordinates"
+msgstr "Coordonnées"
+
+#: src/window.ui:172
+msgid "Open map"
+msgstr "Ouvrir la carte"
+
+#: src/gtk/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Général"
+
+#: src/gtk/help-overlay.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Afficher les raccourcis clavier"
+
+#: src/gtk/help-overlay.ui:20
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Quitter"
