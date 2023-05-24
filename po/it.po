@@ -63,7 +63,7 @@ msgstr "Aggiunta la categoria voce desktop."
 
 #: data/io.github.bytezz.IPLookup.appdata.xml.in:65
 msgid "First version. Just working, nothing fancy."
-msgstr "Prima versione. Sto solo lavorando, niente di speciale.."
+msgstr "Prima versione. Semplicemente funziona, niente di speciale."
 
 #: src/window.ui:196
 msgid "_Keyboard Shortcuts"
