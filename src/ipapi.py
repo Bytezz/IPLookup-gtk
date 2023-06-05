@@ -30,6 +30,9 @@ def internet_available():
     except:
         return False
 
+def is_ip(address):
+    return not address.split(".")[-1].isalpha()
+
 def get_ip_info(ip):
     ip = ip.strip()
     result = {}

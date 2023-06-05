@@ -73,6 +73,12 @@ class IplookupApplication(Adw.Application):
                 ipinfo = ipapi.get_ip_info(self.win.ip_entry.get_text())
 
                 if ipinfo != {} and ipinfo["status"] == "success":
+                    if not ipapi.is_ip(self.win.ip_entry.get_text()):
+                        #self.win.ip_entry.set_text(ipinfo["query"])
+                        #self.win.ip_entry.set_position(-1)
+                        self.win.ip_label.set_label(ipinfo["query"])
+                        self.win.ip_row.set_visible(True) # TODO: Animate
+
                     self.win.network_label.set_label(ipinfo["as"])
                     self.win.isp_label.set_label(ipinfo["isp"])
                     self.win.org_label.set_label(ipinfo["org"])

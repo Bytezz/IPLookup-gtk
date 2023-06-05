@@ -60,6 +60,19 @@
                               <object class="AdwPreferencesGroup">
                                 <property name="title" translatable="true">Network</property>
                                 <child>
+                                  <object class="AdwActionRow" id="ip_row">
+                                    <property name="title" translatable="true">IP</property>
+                                    <property name="icon-name">globe-symbolic</property>
+                                    <property name="visible">False</property>
+                                    <child>
+                                      <object class="GtkLabel" id="ip_label">
+                                        <property name="label"></property>
+                                        <property name="selectable">True</property>
+                                      </object>
+                                    </child>
+                                  </object>
+                                </child>
+                                <child>
                                   <object class="AdwActionRow">
                                     <property name="title" translatable="true">Network</property>
                                     <property name="icon-name">lan-symbolic</property>

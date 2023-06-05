@@ -30,6 +30,8 @@ class IplookupWindow(Adw.ApplicationWindow):
 
     #search_btn = Gtk.Template.Child()
 
+    ip_row = Gtk.Template.Child()
+    ip_label = Gtk.Template.Child()
     network_label = Gtk.Template.Child()
     city_label = Gtk.Template.Child()
     country_label = Gtk.Template.Child()
