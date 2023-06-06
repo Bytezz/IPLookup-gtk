@@ -78,6 +78,8 @@ class IplookupApplication(Adw.Application):
                         #self.win.ip_entry.set_position(-1)
                         self.win.ip_label.set_label(ipinfo["query"])
                         self.win.ip_row.set_visible(True) # TODO: Animate
+                    else:
+                        self.win.ip_row.set_visible(False)
 
                     self.win.network_label.set_label(ipinfo["as"])
                     self.win.isp_label.set_label(ipinfo["isp"])
