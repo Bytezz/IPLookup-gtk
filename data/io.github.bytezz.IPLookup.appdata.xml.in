@@ -49,6 +49,11 @@
 	</custom>
 
 	<releases>
+		<release version="0.1.8" date="2023-10-6" type="stable">
+			<description>
+				<p>Update Turkish translation.</p>
+			</description>
+		</release>
 		<release version="0.1.7" date="2023-06-6" type="stable">
 			<description>
 				<p>Hide IP field when input is not a domain name.</p>
