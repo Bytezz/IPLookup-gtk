@@ -1,158 +1,156 @@
-# Turkish translation of io.github.bytezz.IPLookup.
-# Copyright (C) 2023 io.github.bytezz.IPLookup COPYRIGHT HOLDER
-# This file is distributed under the same license as the io.github.bytezz.IPLookup package.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Sabri Ünal <libreajans@gmail.com>, 2023.
-#
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: io.github.bytezz.IPLookup\n"
-"Report-Msgid-Bugs-To: https://github.com/Bytezz/IPLookup-gtk/issues\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-06 21:00+0300\n"
-"PO-Revision-Date: 2023-10-06 21:04+0300\n"
-"Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
-"Language-Team: Turkish <takim@gnome.org.tr>\n"
-"Language: tr\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.3.2\n"
 
 #: data/io.github.bytezz.IPLookup.desktop.in:3
 #: data/io.github.bytezz.IPLookup.appdata.xml.in:4 src/window.ui:8
 msgid "IP Lookup"
-msgstr "IP Sorgula"
+msgstr ""
 
 #: data/io.github.bytezz.IPLookup.appdata.xml.in:5
 #: data/io.github.bytezz.IPLookup.appdata.xml.in:10
 msgid "Find info about an IP address."
-msgstr "IP adresleri hakkındaki bilgileri bul."
+msgstr ""
 
 #: data/io.github.bytezz.IPLookup.appdata.xml.in:17
 msgid "Main Window"
-msgstr "Ana Pencere"
+msgstr ""
 
 #: data/io.github.bytezz.IPLookup.appdata.xml.in:37 src/window.ui:43
 #: src/window.ui:64
 msgid "IP"
-msgstr "IP"
+msgstr ""
 
 #: data/io.github.bytezz.IPLookup.appdata.xml.in:38
 msgid "lookup"
-msgstr "ara"
+msgstr ""
 
 #: data/io.github.bytezz.IPLookup.appdata.xml.in:39 src/window.ui:89
 msgid "ISP"
-msgstr "Servis Sağlayıcı"
+msgstr ""
 
 #: data/io.github.bytezz.IPLookup.appdata.xml.in:40
 msgid "traceroute"
-msgstr "traceroute"
+msgstr ""
 
 #: data/io.github.bytezz.IPLookup.appdata.xml.in:54
 msgid "Hide IP field when input is not a domain name."
-msgstr "Girdi alan adı değilse IP alanını gizle."
+msgstr ""
 
 #: data/io.github.bytezz.IPLookup.appdata.xml.in:59
 msgid "Show IP if a domain name is given."
-msgstr "Alan adı girildiyse IP adresini göster."
+msgstr ""
 
 #: data/io.github.bytezz.IPLookup.appdata.xml.in:64
 msgid "Ukrainian translation."
-msgstr "Ukraynaca çeviri eklendi."
+msgstr ""
 
 #: data/io.github.bytezz.IPLookup.appdata.xml.in:69
 msgid "Italian and french translation."
-msgstr "İtalyanca ve Fransızca çeviri eklendi."
+msgstr ""
 
 #: data/io.github.bytezz.IPLookup.appdata.xml.in:74
 msgid "Add translation support."
-msgstr "Çeviri desteği eklendi."
+msgstr ""
 
 #: data/io.github.bytezz.IPLookup.appdata.xml.in:75
 msgid "Add Turkish translation."
-msgstr "Türkçe çeviri eklendi."
+msgstr ""
 
 #: data/io.github.bytezz.IPLookup.appdata.xml.in:80
 msgid "Move from com.github to io.github"
-msgstr "com.github yerine io.github kullanılmaya başlandı"
+msgstr ""
 
 #: data/io.github.bytezz.IPLookup.appdata.xml.in:85
 msgid "Switch to org.gnome.Platform 44."
-msgstr "GNOME 44 platformuna geçildi."
+msgstr ""
 
 #: data/io.github.bytezz.IPLookup.appdata.xml.in:86
 msgid "Add Desktop Entry category."
-msgstr "Masaüstü Girdisi kategorisi eklendi."
+msgstr ""
 
 #: data/io.github.bytezz.IPLookup.appdata.xml.in:91
 msgid "First version. Just working, nothing fancy."
-msgstr "İlk sürüm. Sadece çalışıyor, özel bir şey yok."
+msgstr ""
 
 #: src/window.ui:61 src/window.ui:77
 msgid "Network"
-msgstr "Ağ"
+msgstr ""
 
 #: src/window.ui:101
 msgid "Org"
-msgstr "Kurum"
+msgstr ""
 
 #: src/window.ui:115
 msgid "Geo"
-msgstr "Konum"
+msgstr ""
 
 #: src/window.ui:119
 msgid "City"
-msgstr "Şehir"
+msgstr ""
 
 #: src/window.ui:131
 msgid "Region"
-msgstr "Bölge"
+msgstr ""
 
 #: src/window.ui:143
 msgid "Country"
-msgstr "Ülke"
+msgstr ""
 
 #: src/window.ui:155
 msgid "Zip"
-msgstr "Posta Kodu"
+msgstr ""
 
 #: src/window.ui:167
 msgid "Timezone"
-msgstr "Saat Dilimi"
+msgstr ""
 
 #: src/window.ui:179
 msgid "Coordinates"
-msgstr "Koordinatlar"
+msgstr ""
 
 #: src/window.ui:185
 msgid "Open map"
-msgstr "Haritayı aç"
+msgstr ""
 
 #: src/window.ui:209
 msgid "_Keyboard Shortcuts"
-msgstr "_Klavye Kısayolları"
+msgstr ""
 
 #: src/window.ui:213
 msgid "_About IP Lookup"
-msgstr "IP Sorgula _Hakkında"
+msgstr ""
 
 #: src/window.ui:224
 msgid "_Close"
-msgstr "_Kapat"
+msgstr ""
 
 #: src/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr "Genel"
+msgstr ""
 
 #: src/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr "Kısayolları Göster"
+msgstr ""
 
 #: src/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr "Çık"
+msgstr ""
