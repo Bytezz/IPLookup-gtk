@@ -19,6 +19,7 @@
 
 from gi.repository import Adw
 from gi.repository import Gtk
+from gi.repository import Gio
 
 @Gtk.Template(resource_path='/io/github/bytezz/IPLookup/window.ui')
 class IplookupWindow(Adw.ApplicationWindow):
@@ -45,3 +46,11 @@ class IplookupWindow(Adw.ApplicationWindow):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
         self.ip_entry.grab_focus()
+
+        self.settings = Gio.Settings(schema_id="io.github.bytezz.IPLookup")
+        self.settings.bind("window-width", self, "default-width",
+                           Gio.SettingsBindFlags.DEFAULT)
+        self.settings.bind("window-height", self, "default-height",
+                           Gio.SettingsBindFlags.DEFAULT)
+        self.settings.bind("window-maximized", self, "maximized",
+                           Gio.SettingsBindFlags.DEFAULT)
