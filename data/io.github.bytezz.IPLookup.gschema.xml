@@ -2,7 +2,7 @@
 <schemalist gettext-domain="iplookup">
 	<schema id="io.github.bytezz.IPLookup" path="/io/github/bytezz/IPLookup/">
 		<key name="window-width" type="i">
-			<default>500</default>
+			<default>450</default>
 		</key>
 		<key name="window-height" type="i">
 			<default>715</default>

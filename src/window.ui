@@ -3,7 +3,7 @@
   <requires lib="gtk" version="4.0"/>
   <requires lib="Adw" version="1.0"/>
   <template class="IplookupWindow" parent="AdwApplicationWindow">
-    <property name="default-width">500</property>
+    <property name="default-width">450</property>
     <property name="default-height">715</property>
     <property name="title" translatable="yes">IP Lookup</property>
     <child>
@@ -29,14 +29,15 @@
                   <object class="GtkViewport">
                     <child>
                       <object class="AdwClamp">
-                        <property name="maximum-size">530</property>
+                        <property name="margin-top">10</property>
+                        <property name="margin-start">10</property>
+                        <property name="margin-end">10</property>
                         <child>
                           <object class="GtkBox">
                             <property name="orientation">vertical</property>
                             <property name="spacing">10</property>
                             <child>
                               <object class="AdwPreferencesGroup">
-                                <property name="margin-top">10</property>
                                 <child>
                                   <!-- TODO: Move this to headerbar as GtkEntry? -->
                                   <object class="AdwEntryRow" id="ip_entry">
