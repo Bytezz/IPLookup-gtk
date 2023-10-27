@@ -49,6 +49,13 @@
 	</custom>
 
 	<releases>
+		<release version="0.2.0" date="2023-10-27" type="stable">
+			<description>
+				<p>New icon! Thanks Jakub Steiner</p>
+				<p>Remember window size.</p>
+				<p>Add left and right margins.</p>
+			</description>
+		</release>
 		<release version="0.1.9" date="2023-10-6" type="stable">
 			<description>
 				<p>Update Ukrainian and add Russian translations.</p>
