@@ -7,11 +7,9 @@
     <property name="default-height">715</property>
     <property name="title" translatable="yes">IP Lookup</property>
     <child>
-      <object class="GtkBox">
-        <property name="orientation">vertical</property>
-        <child>
-          <object class="GtkHeaderBar" id="header_bar">
-            <property name="css-classes">flat</property>
+      <object class="AdwToolbarView">
+        <child type="top">
+          <object class="AdwHeaderBar" id="header_bar">
             <child type="end">
               <object class="GtkMenuButton">
                 <property name="tooltip-text" translatable="yes">Main Menu</property>
@@ -22,7 +20,7 @@
             </child>
           </object>
         </child>
-        <child>
+        <property name="content">
           <object class="GtkOverlay">
             <child>
               <object class="GtkScrolledWindow">
@@ -202,7 +200,7 @@
               </object>
             </child>
           </object>
-        </child>
+        </property>
       </object>
     </child>
   </template>
