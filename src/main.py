@@ -94,9 +94,7 @@ class IplookupApplication(Adw.Application):
                     self.win.coordinates_label.set_uri("geo://"+str(ipinfo["lat"])+","+str(ipinfo["lon"]))
                     self.win.coordinates_label.set_visible(True)
                 elif "message" in ipinfo:
-                    # TODO: Repleace with a toast
-                    self.win.error_dialog.set_body(ipinfo["message"].capitalize()+".")
-                    self.win.error_dialog.present()
+                    self.win.toast.add_toast(Adw.Toast.new(ipinfo["message"].capitalize()))
             else:
                 # TODO: Repleace with a banner
                 self.win.error_dialog.set_body("No internet connection available.")
