@@ -60,9 +60,12 @@ class IplookupApplication(Adw.Application):
                                 application_name='IP Lookup',
                                 application_icon='io.github.bytezz.IPLookup',
                                 developer_name='Bytez',
+                                website='https://github.com/Bytezz/IPLookup-gtk',
+                                issue_url='https://github.com/Bytezz/IPLookup-gtk/issues',
                                 version='0.2.0',
                                 developers=['Bytez'],
-                                copyright='© 2023 Bytez')
+                                license_type=Gtk.License.GPL_3_0,
+                                copyright='Copyright© 2023 Bytez')
         about.present()
 
     def on_search(self, widget):
