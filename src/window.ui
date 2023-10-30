@@ -21,7 +21,7 @@
           </object>
         </child>
         <property name="content">
-          <object class="GtkOverlay">
+          <object class="AdwToastOverlay" id="toast">
             <child>
               <object class="GtkScrolledWindow">
                 <property name="vexpand">True</property>
