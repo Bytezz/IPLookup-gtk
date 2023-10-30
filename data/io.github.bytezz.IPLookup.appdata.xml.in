@@ -2,12 +2,12 @@
 <component type="desktop">
 	<id>io.github.bytezz.IPLookup</id>
 	<name>IP Lookup</name>
-	<summary>Find info about an IP address.</summary>
+	<summary>Find info about an IP address</summary>
 	<icon type="remote" width="16" height="16" scale="1">https://raw.githubusercontent.com/Bytezz/IPLookup-gtk/master/data/icons/hicolor/scalable/apps/io.github.bytezz.IPLookup.svg</icon>
 	<metadata_license>CC0-1.0</metadata_license>
 	<project_license>GPL-3.0-or-later</project_license>
 	<description>
-		<p>Find info about an IP address.</p>
+		<p>Look up details such as the internet provider and geographic location for an IP address.</p>
 	</description>
 	<content_rating type="oars-1.1"/>
 	<launchable type="desktop-id">io.github.bytezz.IPLookup.desktop</launchable>
