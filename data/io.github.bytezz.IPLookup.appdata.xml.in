@@ -49,6 +49,16 @@
 	</custom>
 
 	<releases>
+		<release version="0.3.0" date="2023-10-31" type="stable">
+			<description>
+				<p>Improve about window.</p>
+				<p>Port to AdwToolbarView.</p>
+				<p>Use toast.</p>
+				<p>Improve primary menu.</p>
+				<p>Thanks Hari Rana.</p>
+				<p>Get your IP from menu.</p>
+			</description>
+		</release>
 		<release version="0.2.0" date="2023-10-27" type="stable">
 			<description>
 				<p>New icon! Thanks Jakub Steiner</p>
