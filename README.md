@@ -13,5 +13,5 @@ Find info about an IP address.
 
 <a href='https://flathub.org/apps/io.github.bytezz.IPLookup'><img width='240' alt='Download on Flathub' src='https://dl.flathub.org/assets/badges/flathub-badge-en.png'/></a>
 
-Or download [latest artifact zip](https://nightly.link/Bytezz/IPLookup-gtk/workflows/ci/master) for your architecture,
+Or download [latest artifact zip](https://nightly.link/Bytezz/IPLookup-gtk/workflows/ci/main) for your architecture,
 extract and install the enclosed flatpak.
