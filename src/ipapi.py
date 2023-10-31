@@ -19,7 +19,7 @@
 
 import json
 import sys
-from urllib.request import urlopen
+from urllib.request import urlopen, Request
 import socket
 
 def internet_available():
@@ -41,3 +41,6 @@ def get_ip_info(ip):
         result = json.loads(urlopen("http://ip-api.com/json/{}".format(ip)).read())
 
     return result
+
+def get_your_ip():
+    return urlopen(Request("https://ifconfig.io", headers={"User-Agent":"curl"})).read().decode("utf-8").strip()

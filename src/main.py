@@ -36,6 +36,7 @@ class IplookupApplication(Adw.Application):
                          flags=Gio.ApplicationFlags.FLAGS_NONE)
         self.create_action('quit', self.on_quit_action, ['<primary>q'])
         self.create_action('about', self.on_about_action)
+        self.create_action('get-your-ip', self.on_get_your_ip_action)
 
     def do_activate(self):
         """Called when the application is activated.
@@ -67,6 +68,12 @@ class IplookupApplication(Adw.Application):
                                 license_type=Gtk.License.GPL_3_0,
                                 copyright='Copyright© 2023 Bytez')
         about.present()
+
+    def on_get_your_ip_action(self, widget, _):
+        self.win.ip_entry.set_text(ipapi.get_your_ip())
+        self.win.ip_entry.grab_focus()
+        self.win.ip_entry.set_position(-1)
+        self.on_search(self)
 
     def on_search(self, widget):
         # TODO: Call deferred
