@@ -1,0 +1,204 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the iplookup package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: iplookup\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-07 12:54+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/io.github.bytezz.IPLookup.desktop.in:3
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:4 src/window.ui:8
+msgid "IP Lookup"
+msgstr ""
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:5
+msgid "Find info about an IP address"
+msgstr ""
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:10
+msgid ""
+"Look up details such as the internet provider and geographic location for an "
+"IP address."
+msgstr ""
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:17
+msgid "Main Window"
+msgstr ""
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:54
+msgid "Improve about window."
+msgstr ""
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:55
+msgid "Port to AdwToolbarView."
+msgstr ""
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:56
+msgid "Use toast."
+msgstr ""
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:57
+msgid "Improve primary menu."
+msgstr ""
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:58
+msgid "Thanks Hari Rana."
+msgstr ""
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:59
+msgid "Get your IP from menu."
+msgstr ""
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:64
+msgid "New icon! Thanks Jakub Steiner"
+msgstr ""
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:65
+msgid "Remember window size."
+msgstr ""
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:66
+msgid "Add left and right margins."
+msgstr ""
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:71
+msgid "Update Ukrainian and add Russian translations."
+msgstr ""
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:76
+msgid "Update Turkish translation."
+msgstr ""
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:81
+msgid "Hide IP field when input is not a domain name."
+msgstr ""
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:86
+msgid "Show IP if a domain name is given."
+msgstr ""
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:91
+msgid "Ukrainian translation."
+msgstr ""
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:96
+msgid "Italian and french translation."
+msgstr ""
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:101
+msgid "Add translation support."
+msgstr ""
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:102
+msgid "Add Turkish translation."
+msgstr ""
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:107
+msgid "Move from com.github to io.github"
+msgstr ""
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:112
+msgid "Switch to org.gnome.Platform 44."
+msgstr ""
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:113
+msgid "Add Desktop Entry category."
+msgstr ""
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:118
+msgid "First version. Just working, nothing fancy."
+msgstr ""
+
+#: src/window.ui:15
+msgid "Main Menu"
+msgstr ""
+
+#: src/window.ui:44 src/window.ui:65
+msgid "IP"
+msgstr ""
+
+#: src/window.ui:62 src/window.ui:78
+msgid "Network"
+msgstr ""
+
+#: src/window.ui:90
+msgid "ISP"
+msgstr ""
+
+#: src/window.ui:102
+msgid "Org"
+msgstr ""
+
+#: src/window.ui:116
+msgid "Geo"
+msgstr ""
+
+#: src/window.ui:120
+msgid "City"
+msgstr ""
+
+#: src/window.ui:132
+msgid "Region"
+msgstr ""
+
+#: src/window.ui:144
+msgid "Country"
+msgstr ""
+
+#: src/window.ui:156
+msgid "Zip"
+msgstr ""
+
+#: src/window.ui:168
+msgid "Timezone"
+msgstr ""
+
+#: src/window.ui:180
+msgid "Coordinates"
+msgstr ""
+
+#: src/window.ui:186
+msgid "Open map"
+msgstr ""
+
+#: src/window.ui:210
+msgid "_Get Your IP"
+msgstr ""
+
+#: src/window.ui:216
+msgid "_Keyboard Shortcuts"
+msgstr ""
+
+#: src/window.ui:220
+msgid "_About IP Lookup"
+msgstr ""
+
+#: src/window.ui:231
+msgid "_Close"
+msgstr ""
+
+#: src/gtk/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr ""
+
+#: src/gtk/help-overlay.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr ""
+
+#: src/gtk/help-overlay.ui:20
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr ""
