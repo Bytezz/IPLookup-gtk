@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.github.bytezz.IPLookup\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-06 21:00+0300\n"
-"PO-Revision-Date: 2023-10-08 17:39+0300\n"
+"POT-Creation-Date: 2023-11-07 12:54+0200\n"
+"PO-Revision-Date: 2023-11-07 13:06+0200\n"
 "Last-Translator: volkov <volkovissocool@gmail.com>\n"
 "Language-Team: Ukrainian <>\n"
 "Language: uk\n"
@@ -24,120 +24,172 @@ msgid "IP Lookup"
 msgstr "IP Lookup"
 
 #: data/io.github.bytezz.IPLookup.appdata.xml.in:5
+msgid "Find info about an IP address"
+msgstr "Знаходьте інформацію про IP адреси"
+
 #: data/io.github.bytezz.IPLookup.appdata.xml.in:10
-msgid "Find info about an IP address."
-msgstr "Отримайте інформацію про IP адресу."
+msgid ""
+"Look up details such as the internet provider and geographic location for an "
+"IP address."
+msgstr ""
+"Переглядайте таку інформацію, як: постачальник інтернет послуг або "
+"географічне розташування із IP адреси."
 
 #: data/io.github.bytezz.IPLookup.appdata.xml.in:17
 msgid "Main Window"
 msgstr "Головне вікно"
 
-#: data/io.github.bytezz.IPLookup.appdata.xml.in:37 src/window.ui:43
-#: src/window.ui:64
-msgid "IP"
-msgstr "IP"
-
-#: data/io.github.bytezz.IPLookup.appdata.xml.in:38
-msgid "lookup"
-msgstr "пошук"
-
-#: data/io.github.bytezz.IPLookup.appdata.xml.in:39 src/window.ui:89
-msgid "ISP"
-msgstr "ISP"
-
-#: data/io.github.bytezz.IPLookup.appdata.xml.in:40
-msgid "traceroute"
-msgstr "traceroute"
-
 #: data/io.github.bytezz.IPLookup.appdata.xml.in:54
-msgid "Hide IP field when input is not a domain name."
-msgstr "Тепер напис з IP адресою буде ховатися, коли введений текст це не назва домену."
+msgid "Improve about window."
+msgstr "Покращено вікно \"Про додаток\"."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:55
+msgid "Port to AdwToolbarView."
+msgstr "Портовано до AdwToolbarView."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:56
+msgid "Use toast."
+msgstr "Тепер будуть використовуватися спливаючі повідомлення."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:57
+msgid "Improve primary menu."
+msgstr "Покращено головне меню."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:58
+msgid "Thanks Hari Rana."
+msgstr "Дякуючи Hari Rana."
 
 #: data/io.github.bytezz.IPLookup.appdata.xml.in:59
+msgid "Get your IP from menu."
+msgstr "Тепер можна отримати вашу IP адресу через пункт в меню."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:64
+msgid "New icon! Thanks Jakub Steiner"
+msgstr "Нова піктограма, дякуючи Jakub Steiner"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:65
+msgid "Remember window size."
+msgstr "Тепер додаток буде запам'ятовувати розмір вікна."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:66
+msgid "Add left and right margins."
+msgstr "Додано відступи з права і зліва."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:71
+msgid "Update Ukrainian and add Russian translations."
+msgstr "Оновлено український і російський переклади."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:76
+msgid "Update Turkish translation."
+msgstr "Оновлено турецький переклад."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:81
+msgid "Hide IP field when input is not a domain name."
+msgstr ""
+"Тепер напис з IP адресою буде ховатися, коли введений текст це не назва "
+"домену."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:86
 msgid "Show IP if a domain name is given."
 msgstr "Тепер показує IP адресу, якщо дано назву домену."
 
-#: data/io.github.bytezz.IPLookup.appdata.xml.in:64
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:91
 msgid "Ukrainian translation."
 msgstr "Український переклад."
 
-#: data/io.github.bytezz.IPLookup.appdata.xml.in:69
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:96
 msgid "Italian and french translation."
 msgstr "Італійський та французькі переклади."
 
-#: data/io.github.bytezz.IPLookup.appdata.xml.in:74
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:101
 msgid "Add translation support."
 msgstr "Додано підтримку перекладів."
 
-#: data/io.github.bytezz.IPLookup.appdata.xml.in:75
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:102
 msgid "Add Turkish translation."
 msgstr "Додано турецький переклад."
 
-#: data/io.github.bytezz.IPLookup.appdata.xml.in:80
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:107
 msgid "Move from com.github to io.github"
 msgstr "Перейшов з com.github на io.github"
 
-#: data/io.github.bytezz.IPLookup.appdata.xml.in:85
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:112
 msgid "Switch to org.gnome.Platform 44."
 msgstr "Перехід на org.gnome.Platform 44."
 
-#: data/io.github.bytezz.IPLookup.appdata.xml.in:86
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:113
 msgid "Add Desktop Entry category."
 msgstr "Додано категорію до посилання на програму."
 
-#: data/io.github.bytezz.IPLookup.appdata.xml.in:91
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:118
 msgid "First version. Just working, nothing fancy."
 msgstr "Перший реліз. Просто працює, нічого зайвого."
 
-#: src/window.ui:61 src/window.ui:77
+#: src/window.ui:15
+msgid "Main Menu"
+msgstr "Головне меню"
+
+#: src/window.ui:44 src/window.ui:65
+msgid "IP"
+msgstr "IP"
+
+#: src/window.ui:62 src/window.ui:78
 msgid "Network"
 msgstr "Мережа"
 
-#: src/window.ui:101
+#: src/window.ui:90
+msgid "ISP"
+msgstr "ISP"
+
+#: src/window.ui:102
 msgid "Org"
 msgstr "Організація"
 
-#: src/window.ui:115
+#: src/window.ui:116
 msgid "Geo"
 msgstr "Геолокація"
 
-#: src/window.ui:119
+#: src/window.ui:120
 msgid "City"
 msgstr "Місто"
 
-#: src/window.ui:131
+#: src/window.ui:132
 msgid "Region"
 msgstr "Регіон"
 
-#: src/window.ui:143
+#: src/window.ui:144
 msgid "Country"
 msgstr "Країна"
 
-#: src/window.ui:155
+#: src/window.ui:156
 msgid "Zip"
 msgstr "Поштовий індекс"
 
-#: src/window.ui:167
+#: src/window.ui:168
 msgid "Timezone"
 msgstr "Часова зона"
 
-#: src/window.ui:179
+#: src/window.ui:180
 msgid "Coordinates"
 msgstr "Координати"
 
-#: src/window.ui:185
+#: src/window.ui:186
 msgid "Open map"
 msgstr "Відкрити мапу"
 
-#: src/window.ui:209
+#: src/window.ui:210
+msgid "_Get Your IP"
+msgstr "_Отримати вашу IP адресу"
+
+#: src/window.ui:216
 msgid "_Keyboard Shortcuts"
 msgstr "_Клавіатурні скорочення"
 
-#: src/window.ui:213
+#: src/window.ui:220
 msgid "_About IP Lookup"
 msgstr "_Про IP Lookup"
 
-#: src/window.ui:224
+#: src/window.ui:231
 msgid "_Close"
 msgstr "_Зачинити"
 
@@ -155,3 +207,9 @@ msgstr "Показати клавіатурні скорочення"
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Вийти"
+
+#~ msgid "lookup"
+#~ msgstr "пошук"
+
+#~ msgid "traceroute"
+#~ msgstr "traceroute"
