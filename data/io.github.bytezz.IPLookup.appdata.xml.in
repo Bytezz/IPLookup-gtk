@@ -49,6 +49,11 @@
 	</custom>
 
 	<releases>
+		<release version="0.3.1" date="2023-11-08" type="stable">
+			<description>
+				<p>Update ukrainian and russian translations.</p>
+			</description>
+		</release>
 		<release version="0.3.0" date="2023-10-31" type="stable">
 			<description>
 				<p>Improve about window.</p>
