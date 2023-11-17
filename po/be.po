@@ -1,0 +1,208 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the iplookup package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: iplookup\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-07 12:54+0200\n"
+"PO-Revision-Date: 2023-11-08 23:48+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: be\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4\n"
+
+#: data/io.github.bytezz.IPLookup.desktop.in:3
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:4 src/window.ui:8
+msgid "IP Lookup"
+msgstr "IP Lookup"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:5
+msgid "Find info about an IP address"
+msgstr "Атрымайце інфармацыю аб IP-адрасе"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:10
+msgid ""
+"Look up details such as the internet provider and geographic location for an "
+"IP address."
+msgstr ""
+"Паглядзіце такія дэталі, як інтэрнэт-правайдэр і геаграфічнае "
+"месцазнаходжанне IP-адраса."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:17
+msgid "Main Window"
+msgstr "Галоўнае акно"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:54
+msgid "Improve about window."
+msgstr "Палепшана акно \"Аб праграме\"."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:55
+msgid "Port to AdwToolbarView."
+msgstr "Партыравана на AdwToolbarView."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:56
+msgid "Use toast."
+msgstr "Цяпер выкарыстоўваюцца усплывальныя апавяшчэнні."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:57
+msgid "Improve primary menu."
+msgstr "Палепшана галоўнае меню."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:58
+msgid "Thanks Hari Rana."
+msgstr "Дзякуючы Hari Rana."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:59
+msgid "Get your IP from menu."
+msgstr "Цяпер можна атрымаць ваш IP адрас з меню."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:64
+msgid "New icon! Thanks Jakub Steiner"
+msgstr "Новы значок, дзякуючы Jakub Steiner"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:65
+msgid "Remember window size."
+msgstr "Цяпер акно праграмы будзе запамінаць памер."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:66
+msgid "Add left and right margins."
+msgstr "Дададзены водступы злева і справа."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:71
+msgid "Update Ukrainian and add Russian translations."
+msgstr "Абноўлены ўкраінскі і рускі пераклады."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:76
+msgid "Update Turkish translation."
+msgstr "Абноўлены турэцкі пераклад."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:81
+msgid "Hide IP field when input is not a domain name."
+msgstr ""
+"Цяпер надпіс з IP адрасам будзе хавацца, калі ўведзены тэкст гэта не назва "
+"дамена."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:86
+msgid "Show IP if a domain name is given."
+msgstr "Цяпер паказвае IP адрас, калі ўведзена імя дамена."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:91
+msgid "Ukrainian translation."
+msgstr "Украінскі пераклад."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:96
+msgid "Italian and french translation."
+msgstr "Італьянскі і французскі пераклад."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:101
+msgid "Add translation support."
+msgstr "Дададзена падтрымка перакладу."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:102
+msgid "Add Turkish translation."
+msgstr "Дададзены турэцкі пераклад."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:107
+msgid "Move from com.github to io.github"
+msgstr "Перайшоў з com.github на io.github"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:112
+msgid "Switch to org.gnome.Platform 44."
+msgstr "Перайшоў на платформу org.gnome.Platform 44."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:113
+msgid "Add Desktop Entry category."
+msgstr "Дададзена катэгорыя для значка праграмы."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:118
+msgid "First version. Just working, nothing fancy."
+msgstr "Першы рэліз. Проста працуе, нічога лішняга."
+
+#: src/window.ui:15
+msgid "Main Menu"
+msgstr "Галоўнае меню"
+
+#: src/window.ui:44 src/window.ui:65
+msgid "IP"
+msgstr "IP"
+
+#: src/window.ui:62 src/window.ui:78
+msgid "Network"
+msgstr "Сетка"
+
+#: src/window.ui:90
+msgid "ISP"
+msgstr "Правайдэр"
+
+#: src/window.ui:102
+msgid "Org"
+msgstr "Арганізацыя"
+
+#: src/window.ui:116
+msgid "Geo"
+msgstr "Геалакацыя"
+
+#: src/window.ui:120
+msgid "City"
+msgstr "Горад"
+
+#: src/window.ui:132
+msgid "Region"
+msgstr "Рэгіён"
+
+#: src/window.ui:144
+msgid "Country"
+msgstr "Краіна"
+
+#: src/window.ui:156
+msgid "Zip"
+msgstr "Паштовы індэкс"
+
+#: src/window.ui:168
+msgid "Timezone"
+msgstr "Гадзінны пояс"
+
+#: src/window.ui:180
+msgid "Coordinates"
+msgstr "Каардынаты"
+
+#: src/window.ui:186
+msgid "Open map"
+msgstr "Адкрыць карту"
+
+#: src/window.ui:210
+msgid "_Get Your IP"
+msgstr "_Атрымаць ваш IP адрас"
+
+#: src/window.ui:216
+msgid "_Keyboard Shortcuts"
+msgstr "_Спалучэнні клавіш"
+
+#: src/window.ui:220
+msgid "_About IP Lookup"
+msgstr "_Пра IP Lookup"
+
+#: src/window.ui:231
+msgid "_Close"
+msgstr "_Закрыць"
+
+#: src/gtk/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Агульныя"
+
+#: src/gtk/help-overlay.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Паказаць спалучэнні клавіш"
+
+#: src/gtk/help-overlay.ui:20
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Выйсці"
