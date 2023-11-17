@@ -49,6 +49,11 @@
 	</custom>
 
 	<releases>
+		<release version="0.3.2" date="2023-11-18" type="stable">
+			<description>
+				<p>Add belarusian and update french translations.</p>
+			</description>
+		</release>
 		<release version="0.3.1" date="2023-11-08" type="stable">
 			<description>
 				<p>Update ukrainian and russian translations.</p>
