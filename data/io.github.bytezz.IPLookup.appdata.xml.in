@@ -7,7 +7,7 @@
 	<metadata_license>CC0-1.0</metadata_license>
 	<project_license>GPL-3.0-or-later</project_license>
 	<description>
-		<p>Find info about an IP address.</p>
+		<p>Find information about given IP address.</p>
 	</description>
 	<content_rating type="oars-1.1"/>
 	<launchable type="desktop-id">io.github.bytezz.IPLookup.desktop</launchable>
