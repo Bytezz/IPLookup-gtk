@@ -2,7 +2,7 @@
 <component type="desktop">
 	<id>io.github.bytezz.IPLookup</id>
 	<name>IP Lookup</name>
-	<summary>Find info about an IP address.</summary>
+	<summary>Find info about an IP address</summary>
 	<icon type="remote" width="16" height="16" scale="1">https://raw.githubusercontent.com/Bytezz/IPLookup-gtk/master/data/icons/hicolor/scalable/apps/io.github.bytezz.IPLookup.svg</icon>
 	<metadata_license>CC0-1.0</metadata_license>
 	<project_license>GPL-3.0-or-later</project_license>
@@ -11,17 +11,14 @@
 	</description>
 	<content_rating type="oars-1.1"/>
 	<launchable type="desktop-id">io.github.bytezz.IPLookup.desktop</launchable>
+	<translation type="gettext">iplookup</translation>
 
 	<screenshots>
-		<screenshot width="622" height="837">
+		<screenshot width="622" height="837" type="default">
 			<caption>Main Window</caption>
 			<image type="source">https://raw.githubusercontent.com/Bytezz/IPLookup-gtk/master/screenshot/window.png</image>
 		</screenshot>
 	</screenshots>
-
-	<categories>
-		<category>Utility</category>
-	</categories>
 
 	<recommends>
 		<control>keyboard</control>
@@ -33,61 +30,55 @@
 		<internet>always</internet>
 	</requires>
 
-	<keywords>
-		<keyword>IP</keyword>
-		<keyword>lookup</keyword>
-		<keyword>ISP</keyword>
-		<keyword>traceroute</keyword>
-	</keywords>
-
 	<url type="homepage">https://github.com/bytezz/iplookup-gtk</url>
 	<url type="bugtracker">https://github.com/Bytezz/IPLookup-gtk/issues</url>
+	<url type="vcs-browser">https://github.com/bytezz/iplookup-gtk</url>
+	<url type="translate">https://github.com/Bytezz/IPLookup-gtk/tree/main/po</url>
 
 	<custom>
-		<value key="Purism::form_factor">workstation</value>
 		<value key="Purism::form_factor">mobile</value>
 	</custom>
 
 	<releases>
 		<release version="0.1.7" date="2023-06-6" type="stable">
-			<description>
+			<description translatable="no">
 				<p>Hide IP field when input is not a domain name.</p>
 			</description>
 		</release>
 		<release version="0.1.6" date="2023-06-5" type="stable">
-			<description>
+			<description translatable="no">
 				<p>Show IP if a domain name is given.</p>
 			</description>
 		</release>
 		<release version="0.1.5" date="2023-05-28" type="stable">
-			<description>
+			<description translatable="no">
 				<p>Ukrainian translation.</p>
 			</description>
 		</release>
 		<release version="0.1.4" date="2023-05-25" type="stable">
-			<description>
+			<description translatable="no">
 				<p>Italian and french translation.</p>
 			</description>
 		</release>
 		<release version="0.1.3" date="2023-05-16" type="stable">
-			<description>
+			<description translatable="no">
 				<p>Add translation support.</p>
 				<p>Add Turkish translation.</p>
 			</description>
 		</release>
 		<release version="0.1.2" date="2023-05-13" type="stable">
-			<description>
+			<description translatable="no">
 				<p>Move from com.github to io.github</p>
 			</description>
 		</release>
 		<release version="0.1.1" date="2023-05-13" type="stable">
-			<description>
+			<description translatable="no">
 				<p>Switch to org.gnome.Platform 44.</p>
 				<p>Add Desktop Entry category.</p>
 			</description>
 		</release>
 		<release version="0.1.0" date="2023-05-11" type="stable">
-			<description>
+			<description translatable="no">
 				<p>First version. Just working, nothing fancy.</p>
 			</description>
 		</release>
