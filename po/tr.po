@@ -1,15 +1,15 @@
 # Turkish translation of io.github.bytezz.IPLookup.
-# Copyright (C) 2023 io.github.bytezz.IPLookup COPYRIGHT HOLDER
+# Copyright (C) 2023-2024 io.github.bytezz.IPLookup COPYRIGHT HOLDER
 # This file is distributed under the same license as the io.github.bytezz.IPLookup package.
 #
-# Sabri Ünal <libreajans@gmail.com>, 2023.
+# Sabri Ünal <libreajans@gmail.com>, 2023, 2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: io.github.bytezz.IPLookup\n"
 "Report-Msgid-Bugs-To: https://github.com/Bytezz/IPLookup-gtk/issues\n"
-"POT-Creation-Date: 2023-05-15 18:13+0300\n"
-"PO-Revision-Date: 2023-05-15 18:14+0300\n"
+"POT-Creation-Date: 2024-01-14 00:37+0300\n"
+"PO-Revision-Date: 2024-01-14 00:39+0300\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -17,102 +17,84 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #: data/io.github.bytezz.IPLookup.desktop.in:3
-#: data/io.github.bytezz.IPLookup.appdata.xml.in:4
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:4 src/window.ui:8
 msgid "IP Lookup"
 msgstr "IP Sorgula"
 
 #: data/io.github.bytezz.IPLookup.appdata.xml.in:5
-#: data/io.github.bytezz.IPLookup.appdata.xml.in:10
-msgid "Find info about an IP address."
-msgstr "IP adresleri hakkındaki bilgileri bul."
+msgid "Find info about an IP address"
+msgstr "IP adresleri hakkındaki bilgileri bul"
 
-#: data/io.github.bytezz.IPLookup.appdata.xml.in:17
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:10
+msgid "Find information about given IP address."
+msgstr "Verilen IP adresi hakkında bilgileri bul."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:18
 msgid "Main Window"
 msgstr "Ana Pencere"
 
-#: data/io.github.bytezz.IPLookup.appdata.xml.in:37
+#: src/window.ui:43 src/window.ui:64
 msgid "IP"
 msgstr "IP"
 
-#: data/io.github.bytezz.IPLookup.appdata.xml.in:38
-msgid "lookup"
-msgstr "ara"
-
-#: data/io.github.bytezz.IPLookup.appdata.xml.in:39
-msgid "ISP"
-msgstr "Servis Sağlayıcı"
-
-#: data/io.github.bytezz.IPLookup.appdata.xml.in:40
-msgid "traceroute"
-msgstr "traceroute"
-
-#: data/io.github.bytezz.IPLookup.appdata.xml.in:54
-msgid "Move from com.github to io.github"
-msgstr "com.github yerine io.github kullanılmaya başlandı"
-
-#: data/io.github.bytezz.IPLookup.appdata.xml.in:59
-msgid "Switch to org.gnome.Platform 44."
-msgstr "GNOME 44 platformuna geçildi."
-
-#: data/io.github.bytezz.IPLookup.appdata.xml.in:60
-msgid "Add Desktop Entry category."
-msgstr "Masaüstü Girdisi kategorisi eklendi."
-
-#: data/io.github.bytezz.IPLookup.appdata.xml.in:65
-msgid "First version. Just working, nothing fancy."
-msgstr "İlk sürüm. Sadece çalışıyor, özel bir şey yok."
-
-#: src/window.ui:196
-msgid "_Keyboard Shortcuts"
-msgstr "_Klavye Kısayolları"
-
-#: src/window.ui:200
-msgid "_About IP Lookup"
-msgstr "IP Sorgula _Hakkında"
-
-#: src/window.ui:61
-#: src/window.ui:64
+#: src/window.ui:61 src/window.ui:77
 msgid "Network"
 msgstr "Ağ"
 
-#: src/window.ui:88
+#: src/window.ui:89
+msgid "ISP"
+msgstr "Servis Sağlayıcı"
+
+#: src/window.ui:101
 msgid "Org"
 msgstr "Kurum"
 
-#: src/window.ui:102
+#: src/window.ui:115
 msgid "Geo"
 msgstr "Konum"
 
-#: src/window.ui:106
+#: src/window.ui:119
 msgid "City"
 msgstr "Şehir"
 
-#: src/window.ui:116
+#: src/window.ui:131
 msgid "Region"
 msgstr "Bölge"
 
-#: src/window.ui:130
+#: src/window.ui:143
 msgid "Country"
 msgstr "Ülke"
 
-#: src/window.ui:142
+#: src/window.ui:155
 msgid "Zip"
 msgstr "Posta Kodu"
 
-#: src/window.ui:154
+#: src/window.ui:167
 msgid "Timezone"
 msgstr "Saat Dilimi"
 
-#: src/window.ui:166
+#: src/window.ui:179
 msgid "Coordinates"
 msgstr "Koordinatlar"
 
-#: src/window.ui:172
+#: src/window.ui:185
 msgid "Open map"
 msgstr "Haritayı aç"
+
+#: src/window.ui:209
+msgid "_Keyboard Shortcuts"
+msgstr "_Klavye Kısayolları"
+
+#: src/window.ui:213
+msgid "_About IP Lookup"
+msgstr "IP Sorgula _Hakkında"
+
+#: src/window.ui:224
+msgid "_Close"
+msgstr "_Kapat"
 
 #: src/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
