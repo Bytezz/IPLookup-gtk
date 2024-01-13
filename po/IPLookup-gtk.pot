@@ -34,6 +34,10 @@ msgstr ""
 msgid "Main Window"
 msgstr ""
 
+#: src/main.py:65
+msgid "translator-credits"
+msgstr ""
+
 #: src/window.ui:43 src/window.ui:64
 msgid "IP"
 msgstr ""

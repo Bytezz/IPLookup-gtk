@@ -36,6 +36,10 @@ msgstr "Verilen IP adresi hakkında bilgileri bul."
 msgid "Main Window"
 msgstr "Ana Pencere"
 
+#: src/main.py:65
+msgid "translator-credits"
+msgstr "Sabri Ünal <libreajans@gmail.com>"
+
 #: src/window.ui:43 src/window.ui:64
 msgid "IP"
 msgstr "IP"

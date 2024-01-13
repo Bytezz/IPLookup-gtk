@@ -54,7 +54,7 @@ class IplookupApplication(Adw.Application):
     def on_quit_action(self, widget, _):
         self.quit()
 
-    def on_about_action(self, widget, _):
+    def on_about_action(self, *args):
         """Callback for the app.about action."""
         about = Adw.AboutWindow(transient_for=self.props.active_window,
                                 application_name='IP Lookup',
@@ -62,6 +62,7 @@ class IplookupApplication(Adw.Application):
                                 developer_name='Bytez',
                                 version='0.1.7',
                                 developers=['Bytez'],
+                                translator_credits=_("translator-credits"),
                                 copyright='© 2023 Bytez')
         about.present()
 
