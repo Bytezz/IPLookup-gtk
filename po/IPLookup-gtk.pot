@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: iplookup\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-07 12:54+0200\n"
+"POT-Creation-Date: 2024-01-23 16:43+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,92 +32,104 @@ msgid ""
 "IP address."
 msgstr ""
 
-#: data/io.github.bytezz.IPLookup.appdata.xml.in:17
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:18
 msgid "Main Window"
 msgstr ""
 
-#: data/io.github.bytezz.IPLookup.appdata.xml.in:54
-msgid "Improve about window."
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:45
+msgid "Add belarusian and update french translations."
+msgstr ""
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:50
+msgid "Update ukrainian and russian translations."
 msgstr ""
 
 #: data/io.github.bytezz.IPLookup.appdata.xml.in:55
-msgid "Port to AdwToolbarView."
+msgid "Improve about window."
 msgstr ""
 
 #: data/io.github.bytezz.IPLookup.appdata.xml.in:56
-msgid "Use toast."
+msgid "Port to AdwToolbarView."
 msgstr ""
 
 #: data/io.github.bytezz.IPLookup.appdata.xml.in:57
-msgid "Improve primary menu."
+msgid "Use toast."
 msgstr ""
 
 #: data/io.github.bytezz.IPLookup.appdata.xml.in:58
-msgid "Thanks Hari Rana."
+msgid "Improve primary menu."
 msgstr ""
 
 #: data/io.github.bytezz.IPLookup.appdata.xml.in:59
+msgid "Thanks Hari Rana."
+msgstr ""
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:60
 msgid "Get your IP from menu."
 msgstr ""
 
-#: data/io.github.bytezz.IPLookup.appdata.xml.in:64
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:65
 msgid "New icon! Thanks Jakub Steiner"
 msgstr ""
 
-#: data/io.github.bytezz.IPLookup.appdata.xml.in:65
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:66
 msgid "Remember window size."
 msgstr ""
 
-#: data/io.github.bytezz.IPLookup.appdata.xml.in:66
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:67
 msgid "Add left and right margins."
 msgstr ""
 
-#: data/io.github.bytezz.IPLookup.appdata.xml.in:71
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:72
 msgid "Update Ukrainian and add Russian translations."
 msgstr ""
 
-#: data/io.github.bytezz.IPLookup.appdata.xml.in:76
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:77
 msgid "Update Turkish translation."
 msgstr ""
 
-#: data/io.github.bytezz.IPLookup.appdata.xml.in:81
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:82
 msgid "Hide IP field when input is not a domain name."
 msgstr ""
 
-#: data/io.github.bytezz.IPLookup.appdata.xml.in:86
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:87
 msgid "Show IP if a domain name is given."
 msgstr ""
 
-#: data/io.github.bytezz.IPLookup.appdata.xml.in:91
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:92
 msgid "Ukrainian translation."
 msgstr ""
 
-#: data/io.github.bytezz.IPLookup.appdata.xml.in:96
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:97
 msgid "Italian and french translation."
 msgstr ""
 
-#: data/io.github.bytezz.IPLookup.appdata.xml.in:101
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:102
 msgid "Add translation support."
 msgstr ""
 
-#: data/io.github.bytezz.IPLookup.appdata.xml.in:102
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:103
 msgid "Add Turkish translation."
 msgstr ""
 
-#: data/io.github.bytezz.IPLookup.appdata.xml.in:107
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:108
 msgid "Move from com.github to io.github"
 msgstr ""
 
-#: data/io.github.bytezz.IPLookup.appdata.xml.in:112
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:113
 msgid "Switch to org.gnome.Platform 44."
 msgstr ""
 
-#: data/io.github.bytezz.IPLookup.appdata.xml.in:113
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:114
 msgid "Add Desktop Entry category."
 msgstr ""
 
-#: data/io.github.bytezz.IPLookup.appdata.xml.in:118
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:119
 msgid "First version. Just working, nothing fancy."
+msgstr ""
+
+#: src/main.py:68
+msgid "translator-credits"
 msgstr ""
 
 #: src/window.ui:15
