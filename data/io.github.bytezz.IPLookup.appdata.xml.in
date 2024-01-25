@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component type="desktop">
+<component type="desktop-application">
 	<id>io.github.bytezz.IPLookup</id>
 	<name>IP Lookup</name>
 	<summary>Find info about an IP address</summary>
@@ -11,17 +11,14 @@
 	</description>
 	<content_rating type="oars-1.1"/>
 	<launchable type="desktop-id">io.github.bytezz.IPLookup.desktop</launchable>
+	<translation type="gettext">iplookup</translation>
 
 	<screenshots>
-		<screenshot width="622" height="837">
+		<screenshot width="622" height="837" type="default">
 			<caption>Main Window</caption>
 			<image type="source">https://raw.githubusercontent.com/Bytezz/IPLookup-gtk/master/screenshot/window.png</image>
 		</screenshot>
 	</screenshots>
-
-	<categories>
-		<category>Utility</category>
-	</categories>
 
 	<recommends>
 		<control>keyboard</control>
@@ -33,18 +30,12 @@
 		<internet>always</internet>
 	</requires>
 
-	<keywords>
-		<keyword>IP</keyword>
-		<keyword>lookup</keyword>
-		<keyword>ISP</keyword>
-		<keyword>traceroute</keyword>
-	</keywords>
-
 	<url type="homepage">https://github.com/bytezz/iplookup-gtk</url>
 	<url type="bugtracker">https://github.com/Bytezz/IPLookup-gtk/issues</url>
+	<url type="vcs-browser">https://github.com/bytezz/iplookup-gtk</url>
+	<url type="translate">https://github.com/Bytezz/IPLookup-gtk/tree/main/po</url>
 
 	<custom>
-		<value key="Purism::form_factor">workstation</value>
 		<value key="Purism::form_factor">mobile</value>
 	</custom>
 
