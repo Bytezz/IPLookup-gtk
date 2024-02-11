@@ -4,6 +4,7 @@
 	<name>IP Lookup</name>
 	<summary>Find info about an IP address</summary>
 	<icon type="remote" width="16" height="16" scale="1">https://raw.githubusercontent.com/Bytezz/IPLookup-gtk/master/data/icons/hicolor/scalable/apps/io.github.bytezz.IPLookup.svg</icon>
+	<developer_name>Bytez</developer_name>
 	<metadata_license>CC0-1.0</metadata_license>
 	<project_license>GPL-3.0-or-later</project_license>
 	<description>
@@ -14,9 +15,25 @@
 	<translation type="gettext">iplookup</translation>
 
 	<screenshots>
-		<screenshot width="622" height="837" type="default">
-			<caption>Main Window</caption>
-			<image type="source">https://raw.githubusercontent.com/Bytezz/IPLookup-gtk/master/screenshot/window.png</image>
+		<screenshot width="698" height="605" type="default">
+			<image type="source">https://raw.githubusercontent.com/Bytezz/IPLookup-gtk/master/screenshots/en-window1.png</image>
+			<image xml:lang="be" type="source">https://raw.githubusercontent.com/Bytezz/IPLookup-gtk/master/screenshots/be-window1.png</image>
+			<image xml:lang="fr" type="source">https://raw.githubusercontent.com/Bytezz/IPLookup-gtk/master/screenshots/fr-window1.png</image>
+			<image xml:lang="it" type="source">https://raw.githubusercontent.com/Bytezz/IPLookup-gtk/master/screenshots/it-window1.png</image>
+			<image xml:lang="ru" type="source">https://raw.githubusercontent.com/Bytezz/IPLookup-gtk/master/screenshots/ru-window1.png</image>
+			<image xml:lang="tr" type="source">https://raw.githubusercontent.com/Bytezz/IPLookup-gtk/master/screenshots/tr-window1.png</image>
+			<image xml:lang="uk" type="source">https://raw.githubusercontent.com/Bytezz/IPLookup-gtk/master/screenshots/uk-window1.png</image>
+			<caption>Main Window Network</caption>
+		</screenshot>
+		<screenshot width="698" height="605">
+			<image type="source">https://raw.githubusercontent.com/Bytezz/IPLookup-gtk/master/screenshots/en-window2.png</image>
+			<image xml:lang="be" type="source">https://raw.githubusercontent.com/Bytezz/IPLookup-gtk/master/screenshots/be-window2.png</image>
+			<image xml:lang="fr" type="source">https://raw.githubusercontent.com/Bytezz/IPLookup-gtk/master/screenshots/fr-window2.png</image>
+			<image xml:lang="it" type="source">https://raw.githubusercontent.com/Bytezz/IPLookup-gtk/master/screenshots/it-window2.png</image>
+			<image xml:lang="ru" type="source">https://raw.githubusercontent.com/Bytezz/IPLookup-gtk/master/screenshots/ru-window2.png</image>
+			<image xml:lang="tr" type="source">https://raw.githubusercontent.com/Bytezz/IPLookup-gtk/master/screenshots/tr-window2.png</image>
+			<image xml:lang="uk" type="source">https://raw.githubusercontent.com/Bytezz/IPLookup-gtk/master/screenshots/uk-window2.png</image>
+			<caption>Main Window Geo</caption>
 		</screenshot>
 	</screenshots>
 

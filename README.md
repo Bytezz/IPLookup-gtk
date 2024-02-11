@@ -7,7 +7,8 @@ Find info about an IP address.
 
 # Screenshots
 
-![Main Window](screenshot/window.png)
+![Main Window](screenshots/en-window1.png)
+![Main Window](screenshots/en-window2.png)
 
 # Install
 
