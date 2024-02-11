@@ -57,6 +57,17 @@
 	</custom>
 
 	<releases>
+		<release version="0.3.3" date="2024-02-11" type="stable">
+			<description>
+				<ul>
+				  <li>Update Turkish translation</li>
+				  <li>Update Russian translation</li>
+				  <li>Update Ukrainian translation</li>
+				  <li>Update screenshots</li>
+				  <li>Improve AppData</li>
+				</ul>
+			</description>
+		</release>
 		<release version="0.3.2" date="2023-11-18" type="stable">
 			<description>
 				<p>Add belarusian and update french translations.</p>
