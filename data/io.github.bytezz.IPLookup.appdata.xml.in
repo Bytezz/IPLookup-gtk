@@ -61,7 +61,7 @@
 
 	<releases>
 		<release version="0.3.3" date="2024-02-11" type="stable">
-			<description>
+			<description translate="no">
 				<ul>
 				  <li>Update Turkish translation</li>
 				  <li>Update Russian translation</li>
@@ -72,17 +72,17 @@
 			</description>
 		</release>
 		<release version="0.3.2" date="2023-11-18" type="stable">
-			<description>
+			<description translate="no">
 				<p>Add belarusian and update french translations.</p>
 			</description>
 		</release>
 		<release version="0.3.1" date="2023-11-08" type="stable">
-			<description>
+			<description translate="no">
 				<p>Update ukrainian and russian translations.</p>
 			</description>
 		</release>
 		<release version="0.3.0" date="2023-10-31" type="stable">
-			<description>
+			<description translate="no">
 				<p>Improve about window.</p>
 				<p>Port to AdwToolbarView.</p>
 				<p>Use toast.</p>
@@ -92,61 +92,61 @@
 			</description>
 		</release>
 		<release version="0.2.0" date="2023-10-27" type="stable">
-			<description>
+			<description translate="no">
 				<p>New icon! Thanks Jakub Steiner</p>
 				<p>Remember window size.</p>
 				<p>Add left and right margins.</p>
 			</description>
 		</release>
 		<release version="0.1.9" date="2023-10-6" type="stable">
-			<description>
+			<description translate="no">
 				<p>Update Ukrainian and add Russian translations.</p>
 			</description>
 		</release>
 		<release version="0.1.8" date="2023-10-6" type="stable">
-			<description>
+			<description translate="no">
 				<p>Update Turkish translation.</p>
 			</description>
 		</release>
 		<release version="0.1.7" date="2023-06-6" type="stable">
-			<description>
+			<description translate="no">
 				<p>Hide IP field when input is not a domain name.</p>
 			</description>
 		</release>
 		<release version="0.1.6" date="2023-06-5" type="stable">
-			<description>
+			<description translate="no">
 				<p>Show IP if a domain name is given.</p>
 			</description>
 		</release>
 		<release version="0.1.5" date="2023-05-28" type="stable">
-			<description>
+			<description translate="no">
 				<p>Ukrainian translation.</p>
 			</description>
 		</release>
 		<release version="0.1.4" date="2023-05-25" type="stable">
-			<description>
+			<description translate="no">
 				<p>Italian and french translation.</p>
 			</description>
 		</release>
 		<release version="0.1.3" date="2023-05-16" type="stable">
-			<description>
+			<description translate="no">
 				<p>Add translation support.</p>
 				<p>Add Turkish translation.</p>
 			</description>
 		</release>
 		<release version="0.1.2" date="2023-05-13" type="stable">
-			<description>
+			<description translate="no">
 				<p>Move from com.github to io.github</p>
 			</description>
 		</release>
 		<release version="0.1.1" date="2023-05-13" type="stable">
-			<description>
+			<description translate="no">
 				<p>Switch to org.gnome.Platform 44.</p>
 				<p>Add Desktop Entry category.</p>
 			</description>
 		</release>
 		<release version="0.1.0" date="2023-05-11" type="stable">
-			<description>
+			<description translate="no">
 				<p>First version. Just working, nothing fancy.</p>
 			</description>
 		</release>
