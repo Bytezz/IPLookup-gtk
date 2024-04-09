@@ -52,6 +52,11 @@
 	<url type="vcs-browser">https://github.com/bytezz/iplookup-gtk</url>
 	<url type="translate">https://github.com/Bytezz/IPLookup-gtk/tree/main/po</url>
 
+  	<branding>
+		<color type="primary" scheme_preference="light">#99c1f1</color>
+		<color type="primary" scheme_preference="dark">#123d72</color>
+	</branding>
+
 	<custom>
 		<value key="Purism::form_factor">mobile</value>
 	</custom>
