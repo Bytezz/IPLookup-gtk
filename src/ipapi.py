@@ -37,7 +37,7 @@ def get_ip_info(ip):
     ip = ip.strip()
     result = {}
 
-    if ip != "":
+    if ip:
         result = json.loads(urlopen("http://ip-api.com/json/{}".format(ip)).read())
 
     return result
