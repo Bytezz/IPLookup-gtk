@@ -5,6 +5,9 @@
 	<summary>Find info about an IP address</summary>
 	<icon type="remote" width="16" height="16" scale="1">https://raw.githubusercontent.com/Bytezz/IPLookup-gtk/master/data/icons/hicolor/scalable/apps/io.github.bytezz.IPLookup.svg</icon>
 	<developer_name>Bytez</developer_name>
+	<developer id="page.codeberg.Bytez">
+		<name>Bytez</name>
+	</developer>
 	<metadata_license>CC0-1.0</metadata_license>
 	<project_license>GPL-3.0-or-later</project_license>
 	<description>
