@@ -65,6 +65,13 @@
 	</custom>
 
 	<releases>
+		<release version="0.3.4" date="2024-05-23" type="stable">
+			<description>
+				<ul>
+				  <li>Add hindi translation</li>
+				</ul>
+			</description>
+		</release>
 		<release version="0.3.3" date="2024-02-11" type="stable">
 			<description>
 				<ul>
