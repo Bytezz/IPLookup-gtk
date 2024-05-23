@@ -1,0 +1,218 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the iplookup package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Scrambled777 <weblate.scrambled777@simplelogin.com>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: iplookup\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-23 16:43+0300\n"
+"PO-Revision-Date: 2024-05-07 20:44+0530\n"
+"Last-Translator: Scrambled777 <weblate.scrambled777@simplelogin.com>\n"
+"Language-Team: Hindi\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Gtranslator 46.1\n"
+
+#: data/io.github.bytezz.IPLookup.desktop.in:3
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:4 src/window.ui:8
+msgid "IP Lookup"
+msgstr "IP Lookup"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:5
+msgid "Find info about an IP address"
+msgstr "IP पते के बारे में जानकारी प्राप्त करें"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:10
+msgid ""
+"Look up details such as the internet provider and geographic location for an "
+"IP address."
+msgstr "IP पते के लिए इंटरनेट प्रदाता और भौगोलिक स्थान जैसे विवरण देखें।"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:18
+msgid "Main Window"
+msgstr "मुख्य विंडो"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:45
+msgid "Add belarusian and update french translations."
+msgstr "बेलारूसी अनुवाद जोड़ा गया और फ़्रेंच अनुवाद अद्यतित।"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:50
+msgid "Update ukrainian and russian translations."
+msgstr "यूक्रेनी और रूसी अनुवाद अद्यतित।"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:55
+msgid "Improve about window."
+msgstr "'बारे में' विंडो में सुधार किया गया।"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:56
+msgid "Port to AdwToolbarView."
+msgstr "AdwToolbarView में पोर्ट किया गया।"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:57
+msgid "Use toast."
+msgstr "टोस्ट का उपयोग करता है।"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:58
+msgid "Improve primary menu."
+msgstr "बेहतर प्राथमिक मेनू।"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:59
+msgid "Thanks Hari Rana."
+msgstr "धन्यवाद हरि राणा।"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:60
+msgid "Get your IP from menu."
+msgstr "मेनू से अपना IP प्राप्त करें।"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:65
+msgid "New icon! Thanks Jakub Steiner"
+msgstr "नया चिह्न! धन्यवाद जैकब स्टीनर"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:66
+msgid "Remember window size."
+msgstr "विंडो का आकार याद रखें।"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:67
+msgid "Add left and right margins."
+msgstr "बाएं और दाएं हाशिए जोड़ें।"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:72
+msgid "Update Ukrainian and add Russian translations."
+msgstr "रूसी अनुवाद जोड़ा गया और यूक्रेनी अनुवाद अद्यतित।"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:77
+msgid "Update Turkish translation."
+msgstr "तुर्की अनुवाद अद्यतित।"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:82
+msgid "Hide IP field when input is not a domain name."
+msgstr "जब आगत डोमेन नाम न हो तो IP क्षेत्र छुपाएं।"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:87
+msgid "Show IP if a domain name is given."
+msgstr "यदि कोई डोमेन नाम दिया गया है तो IP दिखाएं।"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:92
+msgid "Ukrainian translation."
+msgstr "यूक्रेनी अनुवाद।"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:97
+msgid "Italian and french translation."
+msgstr "इतालवी और फ़्रेंच अनुवाद।"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:102
+msgid "Add translation support."
+msgstr "अनुवाद समर्थन जोड़ा गया।"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:103
+msgid "Add Turkish translation."
+msgstr "तुर्की अनुवाद जोड़ा गया।"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:108
+msgid "Move from com.github to io.github"
+msgstr "com.github से io.github पर ले जाया गया"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:113
+msgid "Switch to org.gnome.Platform 44."
+msgstr "org.gnome.Platform 44 पर बदला गया।"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:114
+msgid "Add Desktop Entry category."
+msgstr "डेस्कटॉप प्रविष्टि श्रेणी जोड़ी गई।"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:119
+msgid "First version. Just working, nothing fancy."
+msgstr "प्रथम संस्करण। बस काम कर रहा हूँ, कुछ भी आकर्षक नहीं।"
+
+#: src/main.py:68
+msgid "translator-credits"
+msgstr "Scrambled777 <weblate.scrambled777@simplelogin.com>"
+
+#: src/window.ui:15
+msgid "Main Menu"
+msgstr "मुख्य मेनू"
+
+#: src/window.ui:44 src/window.ui:65
+msgid "IP"
+msgstr "IP"
+
+#: src/window.ui:62 src/window.ui:78
+msgid "Network"
+msgstr "नेटवर्क"
+
+#: src/window.ui:90
+msgid "ISP"
+msgstr "ISP"
+
+#: src/window.ui:102
+msgid "Org"
+msgstr "संगठन"
+
+#: src/window.ui:116
+msgid "Geo"
+msgstr "भौगोलिक"
+
+#: src/window.ui:120
+msgid "City"
+msgstr "शहर"
+
+#: src/window.ui:132
+msgid "Region"
+msgstr "क्षेत्र"
+
+#: src/window.ui:144
+msgid "Country"
+msgstr "देश"
+
+#: src/window.ui:156
+msgid "Zip"
+msgstr "Zip"
+
+#: src/window.ui:168
+msgid "Timezone"
+msgstr "समयक्षेत्र"
+
+#: src/window.ui:180
+msgid "Coordinates"
+msgstr "निर्देशांक"
+
+#: src/window.ui:186
+msgid "Open map"
+msgstr "मानचित्र खोलें"
+
+#: src/window.ui:210
+msgid "_Get Your IP"
+msgstr "अपना IP प्राप्त करें (_G)"
+
+#: src/window.ui:216
+msgid "_Keyboard Shortcuts"
+msgstr "कीबोर्ड शॉर्टकट (_K)"
+
+#: src/window.ui:220
+msgid "_About IP Lookup"
+msgstr "IP Lookup के बारे में (_A)"
+
+#: src/window.ui:231
+msgid "_Close"
+msgstr "बंद करे (_C)"
+
+#: src/gtk/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "सामान्य"
+
+#: src/gtk/help-overlay.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "शॉर्टकट दिखाएं"
+
+#: src/gtk/help-overlay.ui:20
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "छोड़ें"
