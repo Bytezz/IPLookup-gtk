@@ -57,8 +57,7 @@ class IplookupApplication(Adw.Application):
 
     def on_about_action(self, *args):
         """Callback for the app.about action."""
-        about = Adw.AboutWindow(transient_for=self.props.active_window,
-                                application_name='IP Lookup',
+        about = Adw.AboutDialog(application_name='IP Lookup',
                                 application_icon='io.github.bytezz.IPLookup',
                                 developer_name='Bytez',
                                 website='https://github.com/Bytezz/IPLookup-gtk',
@@ -68,7 +67,7 @@ class IplookupApplication(Adw.Application):
                                 translator_credits=_("translator-credits"),
                                 license_type=Gtk.License.GPL_3_0,
                                 copyright='Copyright© 2023 Bytez')
-        about.present()
+        about.present(self.props.active_window)
 
     def on_get_your_ip_action(self, widget, _):
         self.win.ip_entry.set_text(ipapi.get_your_ip())
