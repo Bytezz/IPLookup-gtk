@@ -1,0 +1,218 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the iplookup package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: iplookup\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-23 16:43+0300\n"
+"PO-Revision-Date: 2024-10-10 22:13-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#: data/io.github.bytezz.IPLookup.desktop.in:3
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:4 src/window.ui:8
+msgid "IP Lookup"
+msgstr "IP Lookup"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:5
+msgid "Find info about an IP address"
+msgstr "Buscar información sobre una dirección IP"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:10
+msgid ""
+"Look up details such as the internet provider and geographic location for an "
+"IP address."
+msgstr ""
+"Busca detalles como el proveedor de Internet y la ubicación geográfica de "
+"una dirección IP."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:18
+msgid "Main Window"
+msgstr "Ventana principal"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:45
+msgid "Add belarusian and update french translations."
+msgstr "Se agregaron traducciones al bielorruso y al francés actualizadas."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:50
+msgid "Update ukrainian and russian translations."
+msgstr "Traducciones actualizadas al ucraniano y al ruso."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:55
+msgid "Improve about window."
+msgstr "Ventana 'Acerca de la aplicación' mejorada."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:56
+msgid "Port to AdwToolbarView."
+msgstr "Portado a AdwToolbarView."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:57
+msgid "Use toast."
+msgstr "Ahora se utilizan notificaciones emergentes."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:58
+msgid "Improve primary menu."
+msgstr "Menú principal mejorado."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:59
+msgid "Thanks Hari Rana."
+msgstr "Gracias a Hari Rana."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:60
+msgid "Get your IP from menu."
+msgstr "Obtenga su IP desde el menú."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:65
+msgid "New icon! Thanks Jakub Steiner"
+msgstr "¡Nuevo icono! Gracias a Jakub Steiner."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:66
+msgid "Remember window size."
+msgstr "Recordar el tamaño de la ventana."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:67
+msgid "Add left and right margins."
+msgstr "Añadir márgenes izquierdo y derecho."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:72
+msgid "Update Ukrainian and add Russian translations."
+msgstr "Traducciones al ucraniano y al ruso actualizadas."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:77
+msgid "Update Turkish translation."
+msgstr "Traducción al turco actualizada."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:82
+msgid "Hide IP field when input is not a domain name."
+msgstr "Ocultar el campo IP cuando la entrada no es un nombre de dominio."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:87
+msgid "Show IP if a domain name is given."
+msgstr "Mostrar la IP si se indica un nombre de dominio."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:92
+msgid "Ukrainian translation."
+msgstr "Traducción al ucraniano."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:97
+msgid "Italian and french translation."
+msgstr "Traducción al italiano y al francés."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:102
+msgid "Add translation support."
+msgstr "Soporte de traducción añadido."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:103
+msgid "Add Turkish translation."
+msgstr "Traducción al turco añadida."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:108
+msgid "Move from com.github to io.github"
+msgstr "Pasar de com.github a io.github"
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:113
+msgid "Switch to org.gnome.Platform 44."
+msgstr "Cambiar a org.gnome.Platform 44."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:114
+msgid "Add Desktop Entry category."
+msgstr "Añadir categoría de entrada de escritorio."
+
+#: data/io.github.bytezz.IPLookup.appdata.xml.in:119
+msgid "First version. Just working, nothing fancy."
+msgstr "Primera versión. Funcionando, nada del otro mundo."
+
+#: src/main.py:68
+msgid "translator-credits"
+msgstr "Haggen88"
+
+#: src/window.ui:15
+msgid "Main Menu"
+msgstr "Menú principal"
+
+#: src/window.ui:44 src/window.ui:65
+msgid "IP"
+msgstr "IP"
+
+#: src/window.ui:62 src/window.ui:78
+msgid "Network"
+msgstr "Red"
+
+#: src/window.ui:90
+msgid "ISP"
+msgstr "ISP"
+
+#: src/window.ui:102
+msgid "Org"
+msgstr "Org"
+
+#: src/window.ui:116
+msgid "Geo"
+msgstr "Geo"
+
+#: src/window.ui:120
+msgid "City"
+msgstr "Ciudad"
+
+#: src/window.ui:132
+msgid "Region"
+msgstr "Región"
+
+#: src/window.ui:144
+msgid "Country"
+msgstr "País"
+
+#: src/window.ui:156
+msgid "Zip"
+msgstr "Código Postal"
+
+#: src/window.ui:168
+msgid "Timezone"
+msgstr "Zona horaria"
+
+#: src/window.ui:180
+msgid "Coordinates"
+msgstr "Coordenadas"
+
+#: src/window.ui:186
+msgid "Open map"
+msgstr "Abrir mapa"
+
+#: src/window.ui:210
+msgid "_Get Your IP"
+msgstr "_Obtenga su IP"
+
+#: src/window.ui:216
+msgid "_Keyboard Shortcuts"
+msgstr "_Atajos de teclado"
+
+#: src/window.ui:220
+msgid "_About IP Lookup"
+msgstr "_A cerca de IP Lookup"
+
+#: src/window.ui:231
+msgid "_Close"
+msgstr "_Cerrar"
+
+#: src/gtk/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "General"
+
+#: src/gtk/help-overlay.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Mostrar atajos"
+
+#: src/gtk/help-overlay.ui:20
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Salir"
