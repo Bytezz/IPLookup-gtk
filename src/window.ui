@@ -61,10 +61,13 @@
                               <object class="AdwPreferencesGroup">
                                 <property name="title" translatable="yes">Network</property>
                                 <child>
-                                  <object class="AdwExpanderRow" id="ip_row">
-                                    <property name="title" translatable="yes">IP</property>
-                                    <property name="icon-name">globe-symbolic</property>
-                                    <property name="visible">False</property>
+                                  <object class="GtkRevealer" id="ip_revealer">
+                                    <property name="child">
+                                      <object class="AdwExpanderRow" id="ip_row">
+                                        <property name="title" translatable="yes">IP</property>
+                                        <property name="icon-name">globe-symbolic</property>
+                                      </object>
+                                    </property>
                                   </object>
                                 </child>
                                 <child>

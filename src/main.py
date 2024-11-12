@@ -94,9 +94,9 @@ class IplookupApplication(Adw.Application):
                             self.win.ip_entry.connect("apply", self.remove_ip_row, row)
                             self.win.ip_row.add_row(row)
 
-                        self.win.ip_row.set_visible(True) # TODO: Animate
+                        self.win.ip_revealer.set_reveal_child(True)
                     else:
-                        self.win.ip_row.set_visible(False)
+                        self.win.ip_revealer.set_reveal_child(False)
 
                     self.win.network_label.set_label(ipinfo["as"])
                     self.win.isp_label.set_label(ipinfo["isp"])
