@@ -75,6 +75,9 @@ class IplookupApplication(Adw.Application):
         self.win.ip_entry.set_position(-1)
         self.on_search(self)
 
+    def remove_ip_row(self, _, row):
+        self.win.ip_row.remove(row)
+
     def on_search(self, widget):
         # TODO: Call deferred
         # TODO: Show an osd GtkProgressBar
@@ -84,9 +87,13 @@ class IplookupApplication(Adw.Application):
 
                 if ipinfo != {} and ipinfo["status"] == "success":
                     if not ipapi.is_ip(self.win.ip_entry.get_text()):
-                        #self.win.ip_entry.set_text(ipinfo["query"])
-                        #self.win.ip_entry.set_position(-1)
-                        self.win.ip_label.set_label(ipinfo["query"])
+                        self.win.ip_row.set_subtitle(ipinfo["query"])
+
+                        for i in ipapi.resolve_ips(self.win.ip_entry.get_text()):
+                            row = Adw.ActionRow(title=i, title_selectable=True)
+                            self.win.ip_entry.connect("apply", self.remove_ip_row, row)
+                            self.win.ip_row.add_row(row)
+
                         self.win.ip_row.set_visible(True) # TODO: Animate
                     else:
                         self.win.ip_row.set_visible(False)
@@ -130,4 +137,5 @@ def main(version):
     """The application's entry point."""
     app = IplookupApplication()
     return app.run(sys.argv)
+
 

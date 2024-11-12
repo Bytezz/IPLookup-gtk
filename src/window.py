@@ -33,7 +33,6 @@ class IplookupWindow(Adw.ApplicationWindow):
 
     ip_row = Gtk.Template.Child()
     toast = Gtk.Template.Child()
-    ip_label = Gtk.Template.Child()
     network_label = Gtk.Template.Child()
     city_label = Gtk.Template.Child()
     country_label = Gtk.Template.Child()

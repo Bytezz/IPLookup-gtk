@@ -61,16 +61,10 @@
                               <object class="AdwPreferencesGroup">
                                 <property name="title" translatable="yes">Network</property>
                                 <child>
-                                  <object class="AdwActionRow" id="ip_row">
+                                  <object class="AdwExpanderRow" id="ip_row">
                                     <property name="title" translatable="yes">IP</property>
                                     <property name="icon-name">globe-symbolic</property>
                                     <property name="visible">False</property>
-                                    <child>
-                                      <object class="GtkLabel" id="ip_label">
-                                        <property name="label"></property>
-                                        <property name="selectable">True</property>
-                                      </object>
-                                    </child>
                                   </object>
                                 </child>
                                 <child>

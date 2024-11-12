@@ -30,6 +30,32 @@ def internet_available():
     except:
         return False
 
+def resolve_to_ipv4(hostname):
+    ips = []
+    try:
+        for i in socket.getaddrinfo(hostname, None, socket.AF_INET):
+            ips.append(i[4][0])
+        ips = list(set(ips))
+        return ips
+    except:
+        return ips
+
+def resolve_to_ipv6(hostname):
+    ips = []
+    try:
+        for i in socket.getaddrinfo(hostname, None, socket.AF_INET6):
+            ips.append(i[4][0])
+        ips = list(set(ips))
+        return ips
+    except:
+        return ips
+
+def resolve_ips(hostname):
+    ips = []
+    ips += resolve_to_ipv4(hostname)
+    ips += resolve_to_ipv6(hostname)
+    return ips
+
 def is_ip(address):
     if not "." in address:
         return False
