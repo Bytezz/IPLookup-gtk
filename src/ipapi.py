@@ -31,7 +31,20 @@ def internet_available():
         return False
 
 def is_ip(address):
-    return not address.split(".")[-1].isalpha()
+    if not "." in address:
+        return False
+
+    nums = address.split(".")
+    if len(nums) != 4:
+        return False
+
+    for num in nums:
+        if not num.isalpha():
+            if not (0 <= int(num) <= 255):
+                return False
+        else:
+            return False
+    return True
 
 def get_ip_info(ip):
     ip = ip.strip()
