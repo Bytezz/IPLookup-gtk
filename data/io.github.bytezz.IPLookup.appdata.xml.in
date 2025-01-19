@@ -65,21 +65,30 @@
 	</custom>
 
 	<releases>
+		<release version="0.4.0" date="2025-01-19" type="stable">
+			<description>
+				<ul>
+					<li>Port to 47 runtime</li>
+					<li>List IPs of domain names</li>
+					<li>Add Spanish translation</li>
+				</ul>
+			</description>
+		</release>
 		<release version="0.3.4" date="2024-05-23" type="stable">
 			<description>
 				<ul>
-				  <li>Add hindi translation</li>
+					<li>Add hindi translation</li>
 				</ul>
 			</description>
 		</release>
 		<release version="0.3.3" date="2024-02-11" type="stable">
 			<description>
 				<ul>
-				  <li>Update Turkish translation</li>
-				  <li>Update Russian translation</li>
-				  <li>Update Ukrainian translation</li>
-				  <li>Update screenshots</li>
-				  <li>Improve AppData</li>
+					<li>Update Turkish translation</li>
+					<li>Update Russian translation</li>
+					<li>Update Ukrainian translation</li>
+					<li>Update screenshots</li>
+					<li>Improve AppData</li>
 				</ul>
 			</description>
 		</release>
@@ -164,3 +173,4 @@
 		</release>
 	</releases>
 </component>
+
