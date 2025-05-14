@@ -19,7 +19,7 @@ jobs:
       # Don't fail the whole workflow if one architecture fails
       fail-fast: false
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       # Docker is required by the docker/setup-qemu-action which enables emulation
       - name: Install dependencies
         if: ${{ matrix.arch != 'x86_64' }}
@@ -30,9 +30,9 @@ jobs:
         uses: docker/setup-qemu-action@v2
         with:
           platforms: arm64
-      - uses: flatpak/flatpak-github-actions/flatpak-builder@v5
+      - uses: flatpak/flatpak-github-actions/flatpak-builder@v6
         with:
           bundle: iplookup.flatpak
           manifest-path: flatpak/io.github.bytezz.IPLookup.json
-          arch: ${{ matrix.arch }}
           cache-key: flatpak-builder-${{ github.sha }}
+          arch: ${{ matrix.arch }}
