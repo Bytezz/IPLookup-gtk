@@ -62,7 +62,7 @@ class IplookupApplication(Adw.Application):
                                 developer_name='Bytez',
                                 website='https://github.com/Bytezz/IPLookup-gtk',
                                 issue_url='https://github.com/Bytezz/IPLookup-gtk/issues',
-                                version='0.4.1',
+                                version='0.4.2',
                                 developers=['Bytez'],
                                 translator_credits=_("translator-credits"),
                                 license_type=Gtk.License.GPL_3_0,

@@ -65,6 +65,14 @@
 	</custom>
 
 	<releases>
+		<release version="0.4.2" date="2025-11-3" type="stable">
+			<description>
+				<ul>
+					<li>Add shortcut for "Get Your IP" (Ctrl+G)</li>
+					<li>Update runtime to v49</li>
+				</ul>
+			</description>
+		</release>
 		<release version="0.4.1" date="2025-05-14" type="stable">
 			<description>
 				<ul>
