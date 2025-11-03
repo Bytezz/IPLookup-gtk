@@ -36,7 +36,7 @@ class IplookupApplication(Adw.Application):
                          flags=Gio.ApplicationFlags.FLAGS_NONE)
         self.create_action('quit', self.on_quit_action, ['<primary>q'])
         self.create_action('about', self.on_about_action)
-        self.create_action('get-your-ip', self.on_get_your_ip_action)
+        self.create_action('get-your-ip', self.on_get_your_ip_action, ['<primary>g'])
 
     def do_activate(self):
         """Called when the application is activated.
