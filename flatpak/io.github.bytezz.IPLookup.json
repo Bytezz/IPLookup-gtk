@@ -24,6 +24,52 @@
     ],
     "modules" : [
         {
+            "name" : "libadapta",
+            "buildsystem" : "meson",
+            "config-opts" : [
+                "-Dexamples=false",
+                "-Dtests=false",
+                "-Dgtk_doc=false"
+            ],
+            "sources" : [
+                {
+                    "type" : "git",
+                    "url" : "https://github.com/xapp-project/libadapta.git",
+                    "branch" : "1.5.x"
+                }
+            ],
+            "modules" : [
+                {
+                    "name" : "libsass",
+                    "buildsystem" : "meson",
+                    "cleanup" : [
+                        "*"
+                    ],
+                    "sources" : [
+                        {
+                            "type" : "git",
+                            "url" : "https://github.com/lazka/libsass.git",
+                            "branch" : "meson"
+                        }
+                    ]
+                },
+                {
+                    "name" : "sassc",
+                    "buildsystem" : "meson",
+                    "cleanup" : [
+                        "*"
+                    ],
+                    "sources" : [
+                        {
+                            "type" : "git",
+                            "url" : "https://github.com/lazka/sassc.git",
+                            "branch" : "meson"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "name" : "iplookup",
             "builddir" : true,
             "buildsystem" : "meson",
