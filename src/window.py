@@ -17,11 +17,17 @@
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
 
-from gi.repository import Adap as Adw
-from gi.repository import Gtk
-from gi.repository import Gio
+import os
 
-@Gtk.Template(resource_path='/io/github/bytezz/IPLookup/window.ui')
+from gi.repository import Gtk, Gio
+if os.environ.get("LIBADAPTA") == "1":
+    from gi.repository import Adap as Adw
+    resource_path = "/io/github/bytezz/IPLookup/window-libadapta.ui"
+else:
+    from gi.repository import Adw
+    resource_path = "/io/github/bytezz/IPLookup/window.ui"
+
+@Gtk.Template(resource_path=resource_path)
 class IplookupWindow(Adw.ApplicationWindow):
     __gtype_name__ = 'IplookupWindow'
 

@@ -17,15 +17,20 @@
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
 
-import sys
+import sys, os
 import gi
 
 gi.require_version('Gtk', '4.0')
-#gi.require_version('Adw', '1')
-gi.require_version('Adap', '1')
+gi.require_version(
+    ('Adap' if os.environ.get("LIBADAPTA") == "1" else 'Adw'),
+    '1'
+)
 
 from gi.repository import Gtk, Gio
-from gi.repository import Adap as Adw
+if os.environ.get("LIBADAPTA") == "1":
+    from gi.repository import Adap as Adw
+else:
+    from gi.repository import Adw
 from .window import IplookupWindow
 
 from . import ipapi

@@ -16,3 +16,11 @@ Find info about an IP address.
 
 Or download [latest artifact zip](https://nightly.link/Bytezz/IPLookup-gtk/workflows/ci/main) for your architecture,
 extract and install the enclosed flatpak.
+
+## LibAdapta Support
+
+To switch from default LibAdwaita to LibAdapta, set the environment variable `LIBADAPTA=1`:
+
+```bash
+flatpak override --user --env=LIBADAPTA=1
+```

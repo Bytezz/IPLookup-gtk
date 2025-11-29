@@ -2,14 +2,14 @@
 <interface>
   <requires lib="gtk" version="4.0"/>
   <requires lib="Adw" version="1.0"/>
-  <template class="IplookupWindow" parent="AdwApplicationWindow">
+  <template class="IplookupWindow" parent="AdapApplicationWindow">
     <property name="default-width">450</property>
     <property name="default-height">715</property>
     <property name="title" translatable="yes">IP Lookup</property>
     <child>
-      <object class="AdwToolbarView">
+      <object class="AdapToolbarView">
         <child type="top">
-          <object class="AdwHeaderBar" id="header_bar">
+          <object class="AdapHeaderBar" id="header_bar">
             <child type="end">
               <object class="GtkMenuButton">
                 <property name="tooltip-text" translatable="yes">Main Menu</property>
@@ -21,14 +21,14 @@
           </object>
         </child>
         <property name="content">
-          <object class="AdwToastOverlay" id="toast">
+          <object class="AdapToastOverlay" id="toast">
             <child>
               <object class="GtkScrolledWindow">
                 <property name="vexpand">True</property>
                 <child>
                   <object class="GtkViewport">
                     <child>
-                      <object class="AdwClamp">
+                      <object class="AdapClamp">
                         <property name="margin-top">10</property>
                         <property name="margin-start">10</property>
                         <property name="margin-end">10</property>
@@ -37,10 +37,10 @@
                             <property name="orientation">vertical</property>
                             <property name="spacing">10</property>
                             <child>
-                              <object class="AdwPreferencesGroup">
+                              <object class="AdapPreferencesGroup">
                                 <child>
                                   <!-- TODO: Move this to headerbar as GtkEntry? -->
-                                  <object class="AdwEntryRow" id="ip_entry">
+                                  <object class="AdapEntryRow" id="ip_entry">
                                     <property name="title" translatable="yes">IP</property>
                                     <!-- Is possible to change apply-button icon? -->
                                     <property name="show-apply-button">True</property>
@@ -58,17 +58,17 @@
                               </object>
                             </child>
                             <child>
-                              <object class="AdwPreferencesGroup">
+                              <object class="AdapPreferencesGroup">
                                 <property name="title" translatable="yes">Network</property>
                                 <child>
-                                  <object class="AdwExpanderRow" id="ip_row">
+                                  <object class="AdapExpanderRow" id="ip_row">
                                     <property name="title" translatable="yes">IP</property>
                                     <property name="icon-name">globe-symbolic</property>
                                     <property name="visible">False</property>
                                   </object>
                                 </child>
                                 <child>
-                                  <object class="AdwActionRow">
+                                  <object class="AdapActionRow">
                                     <property name="title" translatable="yes">Network</property>
                                     <property name="icon-name">lan-symbolic</property>
                                     <child>
@@ -80,7 +80,7 @@
                                   </object>
                                 </child>
                                 <child>
-                                  <object class="AdwActionRow">
+                                  <object class="AdapActionRow">
                                     <property name="title" translatable="yes">ISP</property>
                                     <property name="icon-name">globe-symbolic</property>
                                     <child>
@@ -92,7 +92,7 @@
                                   </object>
                                 </child>
                                 <child>
-                                  <object class="AdwActionRow">
+                                  <object class="AdapActionRow">
                                     <property name="title" translatable="yes">Org</property>
                                     <property name="icon-name">building-symbolic</property>
                                     <child>
@@ -106,11 +106,11 @@
                               </object>
                             </child>
                             <child>
-                              <object class="AdwPreferencesGroup">
+                              <object class="AdapPreferencesGroup">
                                 <property name="title" translatable="yes">Geo</property>
                                 <property name="margin-bottom">10</property>
                                 <child>
-                                  <object class="AdwActionRow">
+                                  <object class="AdapActionRow">
                                     <property name="title" translatable="yes">City</property>
                                     <property name="icon-name">city-symbolic</property>
                                     <child>
@@ -122,7 +122,7 @@
                                   </object>
                                 </child>
                                 <child>
-                                  <object class="AdwActionRow">
+                                  <object class="AdapActionRow">
                                     <property name="title" translatable="yes">Region</property>
                                     <property name="icon-name">flag-outline-thick-symbolic</property>
                                     <child>
@@ -134,7 +134,7 @@
                                   </object>
                                 </child>
                                 <child>
-                                  <object class="AdwActionRow">
+                                  <object class="AdapActionRow">
                                     <property name="title" translatable="yes">Country</property>
                                     <property name="icon-name">flag-filled-symbolic</property>
                                     <child>
@@ -146,7 +146,7 @@
                                   </object>
                                 </child>
                                 <child>
-                                  <object class="AdwActionRow">
+                                  <object class="AdapActionRow">
                                     <property name="title" translatable="yes">Zip</property>
                                     <property name="icon-name">mail-symbolic</property>
                                     <child>
@@ -158,7 +158,7 @@
                                   </object>
                                 </child>
                                 <child>
-                                  <object class="AdwActionRow">
+                                  <object class="AdapActionRow">
                                     <property name="title" translatable="yes">Timezone</property>
                                     <property name="icon-name">clock-alt-symbolic</property>
                                     <child>
@@ -170,7 +170,7 @@
                                   </object>
                                 </child>
                                 <child>
-                                  <object class="AdwActionRow">
+                                  <object class="AdapActionRow">
                                     <property name="title" translatable="yes">Coordinates</property>
                                     <property name="icon-name">map-marker-symbolic</property>
                                     <child>
@@ -216,7 +216,7 @@
       </item>
     </section>
   </menu>
-  <object class="AdwMessageDialog" id="error_dialog">
+  <object class="AdapMessageDialog" id="error_dialog">
     <property name="heading">Error</property>
     <property name="body">Error message.</property>
     <property name="default-response">close</property>
