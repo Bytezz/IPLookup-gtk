@@ -65,6 +65,14 @@
 	</custom>
 
 	<releases>
+		<release version="0.5.0" date="2025-11-29" type="stable">
+			<description>
+				<ul>
+					<li>LibAdapta support (set environment variable `LIBADAPTA=1`)</li>
+					<li>Brazilian Portuguese translation</li>
+				</ul>
+			</description>
+		</release>
 		<release version="0.4.2" date="2025-11-3" type="stable">
 			<description>
 				<ul>
